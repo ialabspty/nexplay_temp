@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-17T15:16:39.847Z",
+  "updatedAt": "2026-04-17T16:26:53.567Z",
   "entries": {
     "memory:memory/2026-04-06.md:7:13": {
       "key": "memory:memory/2026-04-06.md:7:13",
@@ -175,19 +175,22 @@
       "endLine": 6,
       "source": "memory",
       "snippet": "## Nexplay durable summary - Repo activo de Nexplay confirmado en `/home/alexander-ortega/.openclaw/workspace/nexplay`; existe otra copia vieja/base en `/home/alexander-ortega/.openclaw/workspace/main/nexplay`. - Frontend y backend de Nexplay usan despliegues separados: `.github/workflows/deploy.yml` para frontend estático a GoDaddy por FTP y `.github/workflows/deploy-backend.yml` para backend al droplet por SCP/SSH. Se ajustaron triggers para que frontend corra solo por cambios de frontend y backend solo por cambios de backend/workflow backend. - Problema operativo fuerte detectado: la base MySQL de producción quedó desalineada respecto al `schema.prisma` y al historial real de migraciones.",
-      "recallCount": 10,
+      "recallCount": 13,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 4.839692581321775,
-      "maxScore": 0.6205162368858436,
+      "totalScore": 6.235164291434116,
+      "maxScore": 0.6438254179027154,
       "firstRecalledAt": "2026-04-15T21:49:47.855Z",
-      "lastRecalledAt": "2026-04-17T15:16:39.847Z",
+      "lastRecalledAt": "2026-04-17T16:26:53.567Z",
       "queryHashes": [
         "c69e9b4d23bc",
         "fde307e0695f",
         "b97e03b82471",
         "1919c9dcb2af",
-        "62baad3e4c69"
+        "62baad3e4c69",
+        "86a719b056ae",
+        "bc9c1f6655c1",
+        "83321f15e833"
       ],
       "recallDays": [
         "2026-04-15",
@@ -276,21 +279,23 @@
       "endLine": 6,
       "source": "memory",
       "snippet": "- Proyecto activo de continuidad: `/home/alexander-ortega/.openclaw/workspace/nexplay` en rama `production`, con trabajo operativo continuo sobre consola real de Nexplay. - Entre 2026-04-14 noche y 2026-04-15 madrugada se empujaron estos commits a `production`: `7e1515b` (docs fuente única), `f3c149a` (UX operativa de puestos), `07e6153` (reservas alineadas con estado operativo), `daf5e95` (reconciliación reservas con sesiones), `5872269` (historial operativo por puesto), `0150bef` (KPIs operativos del dashboard), `f64d4f7` (runtime productivo backend), `fb381e1` (cierre smoke test y pulido dashboard). - Fix productivo crítico confirmado para backend Nexplay: `backend/package.json` debe usar",
-      "recallCount": 7,
+      "recallCount": 8,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 3.3527790700610347,
-      "maxScore": 0.5686997399163323,
+      "totalScore": 3.9773423715670813,
+      "maxScore": 0.6245633015060463,
       "firstRecalledAt": "2026-04-16T04:28:07.445Z",
-      "lastRecalledAt": "2026-04-17T01:10:44.777Z",
+      "lastRecalledAt": "2026-04-17T16:01:57.358Z",
       "queryHashes": [
         "c69e9b4d23bc",
         "c2c31979a970",
-        "0df8af01fc76"
+        "0df8af01fc76",
+        "86a719b056ae"
       ],
       "recallDays": [
         "2026-04-15",
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-17"
       ],
       "conceptTags": [
         "home/alexander-ortega",
@@ -310,20 +315,22 @@
       "endLine": 9,
       "source": "memory",
       "snippet": "- Flujo de despliegue confirmado: frontend y backend tienen workflows separados (`.github/workflows/deploy.yml` y `.github/workflows/deploy-backend.yml`), y el workflow backend reinicia PM2 con `--update-env`. - Estado operativo canónico de Nexplay consolidado: `Reservation` representa planificación, `GameSession` uso real, y el estado derivado del puesto respeta prioridad `maintenance > blocked > in_use > reserved > available`; no usar `game_positions.status` como única verdad. - Producción Nexplay validada mínimamente: frontend público responde 200 en `/nexplay/dashboard/`, `/nexplay/dashboard/positions/` y `/nexplay/reservations/`; backend público `https://nexplay-api.servialpa.com/kpis`",
-      "recallCount": 6,
+      "recallCount": 7,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2.915708084840868,
-      "maxScore": 0.5393696214319444,
+      "totalScore": 3.5153649053415834,
+      "maxScore": 0.5996568205007153,
       "firstRecalledAt": "2026-04-16T04:28:07.445Z",
-      "lastRecalledAt": "2026-04-17T01:10:44.777Z",
+      "lastRecalledAt": "2026-04-17T16:01:57.358Z",
       "queryHashes": [
         "c69e9b4d23bc",
-        "0df8af01fc76"
+        "0df8af01fc76",
+        "86a719b056ae"
       ],
       "recallDays": [
         "2026-04-15",
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-17"
       ],
       "conceptTags": [
         "github/workflows/deploy.yml",
@@ -406,19 +413,21 @@
       "endLine": 5,
       "source": "memory",
       "snippet": "- En `nexplay`, se confirmó corrección del archivo `src/app/dashboard/page.tsx` suficiente para ejecutar `npm run build` limpio. - Se realizó commit y push en rama `production` con commit `74dc753` y mensaje `Reparar estructura JSX del dashboard`. - Se confirmó que no existe script `npm run deploy` en el proyecto, pero sí existe workflow `.github/workflows/deploy.yml` que despliega a GoDaddy por FTP al hacer push a `production`. - Quedaron cambios sin trackear fuera de ese commit en `backend/scripts/`; no fueron incluidos.",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.7510179294613142,
-      "maxScore": 0.3942730112341184,
+      "totalScore": 1.2634463476862967,
+      "maxScore": 0.5124284182249824,
       "firstRecalledAt": "2026-04-16T16:33:41.570Z",
-      "lastRecalledAt": "2026-04-16T16:44:03.925Z",
+      "lastRecalledAt": "2026-04-17T16:01:57.358Z",
       "queryHashes": [
         "c69e9b4d23bc",
-        "0df8af01fc76"
+        "0df8af01fc76",
+        "86a719b056ae"
       ],
       "recallDays": [
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-17"
       ],
       "conceptTags": [
         "src/app/dashboard/page.tsx",
@@ -438,18 +447,20 @@
       "endLine": 21,
       "source": "memory",
       "snippet": "# 2026-04-16 ## Nexplay UI y arquitectura - Se consolidó la separación UX entre `/panel` (Centro de control operativo con KPIs diarios) y `/dashboard` (área de configuración/admin sin KPIs del día). - Se definió y se implementó un estándar para manejo de imágenes en NEXPLAY: módulo backend `Files` con endpoint `POST /files/upload-image`, almacenamiento de archivos en `backend/uploads/<kind>/...` y exposición estática bajo `/uploads/...`. - Todos los formularios actuales que usan imágenes (logo de tenant, imagen de tienda, imagen de zona, cover de juego y avatar de usuario) ahora incluyen botón de upload que llama al nuevo endpoint y autocompleta el campo URL con la ruta pública resultante.",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.4917222046092963,
+      "totalScore": 0.8417657010988211,
       "maxScore": 0.4917222046092963,
       "firstRecalledAt": "2026-04-17T01:10:44.777Z",
-      "lastRecalledAt": "2026-04-17T01:10:44.777Z",
+      "lastRecalledAt": "2026-04-17T16:01:57.358Z",
       "queryHashes": [
-        "c69e9b4d23bc"
+        "c69e9b4d23bc",
+        "86a719b056ae"
       ],
       "recallDays": [
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-17"
       ],
       "conceptTags": [
         "configuración",
