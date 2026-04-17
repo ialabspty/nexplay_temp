@@ -1,0 +1,20 @@
+tipo,valor,descripcion
+estado_interno,recibido_proveedor,Paquete registrado o confirmado por proveedor
+estado_interno,en_transito,Paquete en tránsito logístico
+estado_interno,recibido_bodega,Paquete recibido por KargasPTY en bodega
+estado_interno,en_clasificacion,Paquete en proceso interno de clasificación
+estado_interno,listo_para_entrega,Paquete disponible para entrega o retiro
+estado_interno,en_ruta,Paquete salió a entrega
+estado_interno,entregado,Paquete entregado al destinatario
+estado_interno,incidencia,Existe una incidencia que requiere revisión
+estado_interno,retenido,Paquete retenido por validación, proceso o condición especial
+estado_interno,pendiente_pago,Paquete pendiente de pago para continuar flujo o entrega
+estado_pago,pagado,Pago completado
+estado_pago,pendiente,Pago aún no realizado
+estado_pago,parcial,Pago incompleto o saldo pendiente
+estado_pago,exonerado,Cobro no aplica
+entregado,si,Paquete entregado
+entregado,no,Paquete no entregado
+fuente_prioridad,google_sheet,Fuente principal para comunicar estado al cliente
+fuente_prioridad,proveedor,Fuente secundaria de apoyo logístico
+fuente_prioridad,humano,Escalación cuando hay contradicción o incidencia sensible

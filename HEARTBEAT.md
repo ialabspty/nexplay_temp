@@ -1,0 +1,1 @@
+Se realizaron cambios para permitir que la gestión de reservas funcione como una sección dentro de la aplicación de Nexplay, separándola del dashboard. Se completó la construcción del proyecto y las rutas están operativas. Verificado que cualquier advertencia de paquetes se administra correctamente.

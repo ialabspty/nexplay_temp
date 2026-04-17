@@ -1,0 +1,71 @@
+{
+  "schema": "openclaw.acpx.session.v1",
+  "acpxRecordId": "agent:codex:acp:c9531e68-4c4b-42ae-b047-66819828db1f",
+  "acpSessionId": "019d6a31-b6bd-75d0-8b9d-177eed0e0b0f",
+  "agentCommand": "npx @zed-industries/codex-acp@^0.11.1",
+  "cwd": "/home/alexander-ortega/.openclaw/workspace/agents/hq/internal",
+  "name": "agent:codex:acp:c9531e68-4c4b-42ae-b047-66819828db1f",
+  "createdAt": "2026-04-07T23:05:28.561Z",
+  "lastUsedAt": "2026-04-07T23:05:40.483Z",
+  "lastSeq": 0,
+  "eventLog": {
+    "active_path": "",
+    "segment_count": 0,
+    "max_segment_bytes": 0,
+    "max_segments": 0,
+    "last_write_error": null
+  },
+  "closed": true,
+  "title": null,
+  "messages": [
+    {
+      "User": {
+        "id": "eb30cb0d-0157-4916-b712-10cbdb1d2d03",
+        "content": [
+          {
+            "Text": "[Tue 2026-04-07 18:05 EST] Implementar el conector con Huli Practice según el diseño técnico detallado."
+          }
+        ]
+      }
+    }
+  ],
+  "updated_at": "2026-04-07T23:05:36.574Z",
+  "cumulative_token_usage": {},
+  "request_token_usage": {},
+  "acpx": {
+    "available_commands": [
+      "review",
+      "review-branch",
+      "review-commit",
+      "init",
+      "compact",
+      "undo",
+      "logout"
+    ]
+  },
+  "protocolVersion": 1,
+  "agentCapabilities": {
+    "loadSession": true,
+    "promptCapabilities": {
+      "image": true,
+      "audio": false,
+      "embeddedContext": true
+    },
+    "mcpCapabilities": {
+      "http": true,
+      "sse": false
+    },
+    "sessionCapabilities": {
+      "list": {},
+      "close": {}
+    },
+    "auth": {
+      "logout": {}
+    }
+  },
+  "pid": 6277,
+  "agentStartedAt": "2026-04-07T23:05:33.184Z",
+  "lastPromptAt": "2026-04-07T23:05:36.576Z",
+  "lastRequestId": "8d3ba357-b894-4b2a-a499-0a670ebf1e85",
+  "closedAt": "2026-04-07T23:05:41.092Z"
+}

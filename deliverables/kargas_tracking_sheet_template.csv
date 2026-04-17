@@ -1,0 +1,4 @@
+tracking,status_proveedor,mode,wr,shipment,fecha_registrado,tienda_comercio,factura,pcs,unidad,peso,length,width,height,volumen,cubiclaje,costo_tarifa,detalle_carga,estado_interno,fecha_estimada,entregado,fecha_entrega,precio,estado_pago,observaciones,ultima_actualizacion
+PCL123456,En tránsito,Aéreo,WR0021,SHP8891,2026-03-21,Amazon,FAC-889,1,caja,2.5,30,20,15,0.009,0.32,12.00,Carga registrada y en movimiento,recibido_bodega,2026-03-24,no,,18.50,pendiente,Paquete en clasificación,2026-03-21 11:40
+PCL123457,Recibido,Marítimo,WR0022,SHP8892,2026-03-20,Shein,FAC-890,2,paquete,5.1,40,25,18,0.018,0.64,20.00,Carga recibida con detalle completo,listo_para_entrega,2026-03-22,no,,28.75,pagado,Listo para coordinar entrega,2026-03-21 09:15
+PCL123458,Entregado,Aéreo,WR0023,SHP8893,2026-03-18,Temu,FAC-891,1,sobre,0.8,25,18,2,0.001,0.04,5.50,Carga cerrada en sistema,entregado,2026-03-20,si,2026-03-20,9.99,pagado,Entregado sin novedad,2026-03-20 16:10

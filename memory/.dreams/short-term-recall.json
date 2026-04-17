@@ -1,0 +1,497 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-17T15:16:39.847Z",
+  "entries": {
+    "memory:memory/2026-04-06.md:7:13": {
+      "key": "memory:memory/2026-04-06.md:7:13",
+      "path": "memory/2026-04-06.md",
+      "startLine": 7,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "- Se registraron perfiles de acceso de prueba en `ClinicBridge` para Juan Pablo Medina (`Clinic Web`) y Liseth Alejandra Jones Ulate (`Huli Practice`) con `login_identifier`, `credential_ref` y `login_url`. - Se corrigió el criterio de secretos: las credenciales de plataforma clínica deben almacenarse en BD, por médico y por plataforma, no en `.env`; se creó `platform_access_secrets` en `ClinicBridge`. - Se actualizó y almacenó en `platform_access_secrets` la credencial válida de Juan Pablo Medina para Clinic Web; el login real fue exitoso y llegó a `https://professional.cliniweb.com/agenda` con título `THEPANAMACLINIC - jpmedina@ufm.edu - Juan Pablo Medina Velásquez`. - Se confirmó el flujo",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.833428207039833,
+      "maxScore": 0.3833163499832153,
+      "firstRecalledAt": "2026-04-08T00:09:58.091Z",
+      "lastRecalledAt": "2026-04-09T00:31:11.821Z",
+      "queryHashes": [
+        "8dd81f3fc251",
+        "ad1a8597f52e",
+        "643ae17ffa67",
+        "2dc4c2dc1585",
+        "35d1b9a84622"
+      ],
+      "recallDays": [
+        "2026-04-07",
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "login-identifier",
+        "credential-ref",
+        "login-url",
+        "platform-access-secrets",
+        "professional.cliniweb.com/agenda",
+        "ufm.edu",
+        "registraron",
+        "perfiles"
+      ]
+    },
+    "memory:memory/2026-04-06.md:12:15": {
+      "key": "memory:memory/2026-04-06.md:12:15",
+      "path": "memory/2026-04-06.md",
+      "startLine": 12,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "- Se generaron múltiples documentos operativos y técnicos en el workspace: `database_master_map.md`, bootstraps operativos por core, diseños de extractores Clinic Web/Huli, conectores por plataforma, guía de ejecución real y runner/adapters skeleton. - Estado actual de automatización Clinic Web: login real ya funciona; el análisis de agenda aún no arroja ocupación porque la vista `/agenda` sigue contaminada por overlays/modales de impresión/soporte y no se ha extraído todavía la grilla horaria utilizable. - Objetivos iniciales en `ClinicBridge`: Juan Pablo Medina con meta de ocupación 100%, Liseth Alejandra Jones Ulate con meta 90%.",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.3678723245859146,
+      "maxScore": 0.37149953246116635,
+      "firstRecalledAt": "2026-04-08T18:47:39.371Z",
+      "lastRecalledAt": "2026-04-09T00:31:11.821Z",
+      "queryHashes": [
+        "ad1a8597f52e",
+        "643ae17ffa67",
+        "2dc4c2dc1585",
+        "35d1b9a84622"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "database-master-map.md",
+        "web/huli",
+        "runner/adapters",
+        "overlays/modales",
+        "impresión/soporte",
+        "generaron",
+        "múltiples",
+        "documentos"
+      ]
+    },
+    "memory:memory/2026-04-06.md:1:8": {
+      "key": "memory:memory/2026-04-06.md:1:8",
+      "path": "memory/2026-04-06.md",
+      "startLine": 1,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "- Se implementó arquitectura de bases por core en GoDaddy/MySQL: `hq`, `LogisticsBridge`, `ServiceBridge`, `EduBridge`, `SupplyBridge`, `BusinessOpsBridge`, `RetailBridge`, `ClinicBridge` y `openclaw_test`. - En `hq` se añadieron tablas de gobernanza general y conexiones: `routing_rules`, `agent_registry`, `handoff_events`, `global_metrics`, `db_connection_profiles`, `db_connection_permissions`, `db_connection_audit`. - `openclaw_test` quedó como base compartida de pruebas con segregación lógica por core/agente/workspace. - Se sembraron perfiles de conexión por core en `hq` y permisos base por agente. - En `ClinicBridge` se amplió el modelo para medición de impacto del agente con tablas: `do",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.3534442365169523,
+      "maxScore": 0.3834348231554031,
+      "firstRecalledAt": "2026-04-08T18:47:39.371Z",
+      "lastRecalledAt": "2026-04-09T00:31:11.821Z",
+      "queryHashes": [
+        "ad1a8597f52e",
+        "643ae17ffa67",
+        "2dc4c2dc1585",
+        "35d1b9a84622"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "godaddy/mysql",
+        "openclaw-test",
+        "routing-rules",
+        "agent-registry",
+        "handoff-events",
+        "global-metrics",
+        "db-connection-profiles",
+        "db-connection-permissions"
+      ]
+    },
+    "memory:memory/2026-03-23.md:11:16": {
+      "key": "memory:memory/2026-03-23.md:11:16",
+      "path": "memory/2026-03-23.md",
+      "startLine": 11,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "- EduBridge must keep all replies within service scope, with clean/professional school-appropriate language, strong privacy posture, and resistance to prompt injection and attempts to reveal internal prompts/logic/credentials. - Important positioning decision: EduBridge is a third-party external service operated by the company, not by the school; schools do not automatically have a commercial relationship with EduBridge, and EduBridge should not present itself as the school or as a formal commercial representative of the school. - EduBridge commercial positioning refined: it should be presented as an assistant for parents that connects school-platform information to families via WhatsApp, re",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.288890665769577,
+      "maxScore": 0.288890665769577,
+      "firstRecalledAt": "2026-04-08T19:18:01.212Z",
+      "lastRecalledAt": "2026-04-08T19:18:01.212Z",
+      "queryHashes": [
+        "643ae17ffa67"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "clean/professional",
+        "school-appropriate",
+        "prompts/logic/credentials",
+        "third-party",
+        "school-platform",
+        "edubridge",
+        "must",
+        "keep"
+      ]
+    },
+    "memory:memory/2026-03-23.md:15:20": {
+      "key": "memory:memory/2026-03-23.md:15:20",
+      "path": "memory/2026-03-23.md",
+      "startLine": 15,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "- Operational incident discovered: valid EduBridge messages were not being answered in production-like testing even after prompt fixes; root cause turned out to be the real WhatsApp allowlist in `/home/alexander-ortega/.openclaw/openclaw.json`, which originally only allowed `+50766147683`. - WhatsApp allowlist in the active OpenClaw config was updated to include `+50766147683`, `+50766792900`, `+50766712321`, and `+50769810331`; after this, EduBridge started responding for those numbers. - Current EduBridge test phone list tracked in workspace includes `+50766792900`, `+50766712321`, and `+50769810331`. - Panamerican data/pilot structures exist but operator signaled shift away from dummy pil",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.2881461143493652,
+      "maxScore": 0.2881461143493652,
+      "firstRecalledAt": "2026-04-08T19:18:01.212Z",
+      "lastRecalledAt": "2026-04-08T19:18:01.212Z",
+      "queryHashes": [
+        "643ae17ffa67"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "production-like",
+        "home/alexander-ortega",
+        "openclaw/openclaw.json",
+        "data/pilot",
+        "operational",
+        "incident",
+        "discovered",
+        "valid"
+      ]
+    },
+    "memory:memory/2026-04-14.md:1:6": {
+      "key": "memory:memory/2026-04-14.md:1:6",
+      "path": "memory/2026-04-14.md",
+      "startLine": 1,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "## Nexplay durable summary - Repo activo de Nexplay confirmado en `/home/alexander-ortega/.openclaw/workspace/nexplay`; existe otra copia vieja/base en `/home/alexander-ortega/.openclaw/workspace/main/nexplay`. - Frontend y backend de Nexplay usan despliegues separados: `.github/workflows/deploy.yml` para frontend estático a GoDaddy por FTP y `.github/workflows/deploy-backend.yml` para backend al droplet por SCP/SSH. Se ajustaron triggers para que frontend corra solo por cambios de frontend y backend solo por cambios de backend/workflow backend. - Problema operativo fuerte detectado: la base MySQL de producción quedó desalineada respecto al `schema.prisma` y al historial real de migraciones.",
+      "recallCount": 10,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4.839692581321775,
+      "maxScore": 0.6205162368858436,
+      "firstRecalledAt": "2026-04-15T21:49:47.855Z",
+      "lastRecalledAt": "2026-04-17T15:16:39.847Z",
+      "queryHashes": [
+        "c69e9b4d23bc",
+        "fde307e0695f",
+        "b97e03b82471",
+        "1919c9dcb2af",
+        "62baad3e4c69"
+      ],
+      "recallDays": [
+        "2026-04-15",
+        "2026-04-16",
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "home/alexander-ortega",
+        "openclaw/workspace/nexplay",
+        "vieja/base",
+        "openclaw/workspace/main/nexplay",
+        "github/workflows/deploy.yml",
+        "scp/ssh",
+        "backend/workflow",
+        "schema.prisma"
+      ]
+    },
+    "memory:memory/2026-04-14.md:5:12": {
+      "key": "memory:memory/2026-04-14.md:5:12",
+      "path": "memory/2026-04-14.md",
+      "startLine": 5,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "- En producción se confirmó que el backend puede romperse por deploys que pisan fixes manuales del droplet. Problemas concretos observados: `start:prod` apuntando a `node dist/main` cuando el build genera `dist/src/main.js`, y necesidad de usar Prisma 7 con adapter (`@prisma/adapter-mariadb`) en `PrismaService`. - Nuevo criterio técnico permanente para Nexplay: `Reservation` representa planificación/intención; `GameSession` representa uso real; la fuente de verdad para saber si un `GamePosition` está en uso es la existencia de una `GameSession` activa. - Regla de estado operativo definida para `GamePosition`: prioridad `maintenance > blocked > in_use > reserved > available`. El estado visibl",
+      "recallCount": 6,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2.7018059411193986,
+      "maxScore": 0.504481509685781,
+      "firstRecalledAt": "2026-04-15T21:49:47.855Z",
+      "lastRecalledAt": "2026-04-17T01:10:44.777Z",
+      "queryHashes": [
+        "c69e9b4d23bc"
+      ],
+      "recallDays": [
+        "2026-04-15",
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "dist/main",
+        "dist/src/main.js",
+        "prisma/adapter-mariadb",
+        "planificación/intención",
+        "in-use",
+        "producción",
+        "confirmó",
+        "backend"
+      ]
+    },
+    "memory:memory/2026-04-14.md:19:21": {
+      "key": "memory:memory/2026-04-14.md:19:21",
+      "path": "memory/2026-04-14.md",
+      "startLine": 19,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "- Quedó preparada migración manual nueva en repo para el estado operativo de puestos: `backend/prisma/migrations/20260415035000_game_position_operational_state/migration.sql`, con `CREATE TABLE game_position_blocks` e índice `idx_game_sessions_position_status`. Prisma no pudo generar shadow DB automáticamente en ese entorno, así que se preparó manualmente. - Pendiente crítico para continuar Nexplay: reconciliar definitivamente la DB productiva con el schema Prisma y las migraciones antes de seguir ampliando frontend/operación, luego aplicar la migración de `game_position_blocks` y después completar acciones rápidas de UI (check-in, bloquear, desbloquear, cerrar sesión).",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.3252717271983439,
+      "maxScore": 0.4714831176305072,
+      "firstRecalledAt": "2026-04-15T21:49:47.855Z",
+      "lastRecalledAt": "2026-04-16T16:33:41.570Z",
+      "queryHashes": [
+        "c69e9b4d23bc"
+      ],
+      "recallDays": [
+        "2026-04-15",
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "game-position-blocks",
+        "frontend/operación",
+        "check-in",
+        "quedó",
+        "preparada",
+        "migración",
+        "manual",
+        "nueva"
+      ]
+    },
+    "memory:memory/2026-04-15.md:1:6": {
+      "key": "memory:memory/2026-04-15.md:1:6",
+      "path": "memory/2026-04-15.md",
+      "startLine": 1,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "- Proyecto activo de continuidad: `/home/alexander-ortega/.openclaw/workspace/nexplay` en rama `production`, con trabajo operativo continuo sobre consola real de Nexplay. - Entre 2026-04-14 noche y 2026-04-15 madrugada se empujaron estos commits a `production`: `7e1515b` (docs fuente única), `f3c149a` (UX operativa de puestos), `07e6153` (reservas alineadas con estado operativo), `daf5e95` (reconciliación reservas con sesiones), `5872269` (historial operativo por puesto), `0150bef` (KPIs operativos del dashboard), `f64d4f7` (runtime productivo backend), `fb381e1` (cierre smoke test y pulido dashboard). - Fix productivo crítico confirmado para backend Nexplay: `backend/package.json` debe usar",
+      "recallCount": 7,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3.3527790700610347,
+      "maxScore": 0.5686997399163323,
+      "firstRecalledAt": "2026-04-16T04:28:07.445Z",
+      "lastRecalledAt": "2026-04-17T01:10:44.777Z",
+      "queryHashes": [
+        "c69e9b4d23bc",
+        "c2c31979a970",
+        "0df8af01fc76"
+      ],
+      "recallDays": [
+        "2026-04-15",
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "home/alexander-ortega",
+        "openclaw/workspace/nexplay",
+        "backend/package.json",
+        "proyecto",
+        "activo",
+        "continuidad",
+        "home",
+        "alexander"
+      ]
+    },
+    "memory:memory/2026-04-15.md:5:9": {
+      "key": "memory:memory/2026-04-15.md:5:9",
+      "path": "memory/2026-04-15.md",
+      "startLine": 5,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "- Flujo de despliegue confirmado: frontend y backend tienen workflows separados (`.github/workflows/deploy.yml` y `.github/workflows/deploy-backend.yml`), y el workflow backend reinicia PM2 con `--update-env`. - Estado operativo canónico de Nexplay consolidado: `Reservation` representa planificación, `GameSession` uso real, y el estado derivado del puesto respeta prioridad `maintenance > blocked > in_use > reserved > available`; no usar `game_positions.status` como única verdad. - Producción Nexplay validada mínimamente: frontend público responde 200 en `/nexplay/dashboard/`, `/nexplay/dashboard/positions/` y `/nexplay/reservations/`; backend público `https://nexplay-api.servialpa.com/kpis`",
+      "recallCount": 6,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2.915708084840868,
+      "maxScore": 0.5393696214319444,
+      "firstRecalledAt": "2026-04-16T04:28:07.445Z",
+      "lastRecalledAt": "2026-04-17T01:10:44.777Z",
+      "queryHashes": [
+        "c69e9b4d23bc",
+        "0df8af01fc76"
+      ],
+      "recallDays": [
+        "2026-04-15",
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "github/workflows/deploy.yml",
+        "update-env",
+        "in-use",
+        "game-positions.status",
+        "nexplay/dashboard",
+        "nexplay/dashboard/positions",
+        "nexplay/reservations",
+        "nexplay-api.servialpa.com/kpis"
+      ]
+    },
+    "memory:memory/2026-04-15.md:9:12": {
+      "key": "memory:memory/2026-04-15.md:9:12",
+      "path": "memory/2026-04-15.md",
+      "startLine": 9,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "- Resultado de reconciliación productiva parcial: al ejecutar `npx prisma db execute --file prisma/migrations/20260415035000_game_position_operational_state/migration.sql` en `/opt/nexplay/backend`, Prisma devolvió `Table 'game_position_blocks' already exists`; tras reiniciar PM2, el backend volvió a responder localmente en `127.0.0.1:3001` con 401. Queda como riesgo abierto que la reconciliación DB/migraciones en producción sigue inconsistente y requiere cierre formal. - Documento operativo actualizado durante esta sesión: `README.md` y `docs/executable-tasks.md` en Nexplay se usan como fuente de continuidad para estado productivo, smoke test y siguientes bloques. - Bloque 12 de pulido oper",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.3191478527778857,
+      "maxScore": 0.4428396185787663,
+      "firstRecalledAt": "2026-04-16T04:28:07.445Z",
+      "lastRecalledAt": "2026-04-17T01:10:44.777Z",
+      "queryHashes": [
+        "c69e9b4d23bc"
+      ],
+      "recallDays": [
+        "2026-04-15",
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "opt/nexplay/backend",
+        "game-position-blocks",
+        "127.0.0.1",
+        "db/migraciones",
+        "readme.md",
+        "docs/executable-tasks.md",
+        "resultado",
+        "reconciliación"
+      ]
+    },
+    "memory:memory/2026-04-16.md:1:8": {
+      "key": "memory:memory/2026-04-16.md:1:8",
+      "path": "memory/2026-04-16.md",
+      "startLine": 1,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "# 2026-04-16 ## Nexplay UI y arquitectura - Se consolidó la separación UX entre `/panel` (Centro de control operativo con KPIs diarios) y `/dashboard` (área de configuración/admin sin KPIs del día). - Se definió y se implementó un estándar para manejo de imágenes en NEXPLAY: módulo backend `Files` con endpoint `POST /files/upload-image`, almacenamiento de archivos en `backend/uploads/<kind>/...` y exposición estática bajo `/uploads/...`. - Todos los formularios actuales que usan imágenes (logo de tenant, imagen de tienda, imagen de zona, cover de juego y avatar de usuario) ahora incluyen botón de upload que llama al nuevo endpoint y autocompleta el campo URL con la ruta pública resultante.",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.5825068971699192,
+      "maxScore": 0.5275022990566397,
+      "firstRecalledAt": "2026-04-16T14:27:02.391Z",
+      "lastRecalledAt": "2026-04-16T16:33:41.570Z",
+      "queryHashes": [
+        "c69e9b4d23bc"
+      ],
+      "recallDays": [
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "configuración",
+        "configuración/admin",
+        "files/upload-image",
+        "backend/uploads",
+        "nexplay",
+        "arquitectura",
+        "consolidó",
+        "separación"
+      ]
+    },
+    "memory:memory/2026-04-13.md:1:5": {
+      "key": "memory:memory/2026-04-13.md:1:5",
+      "path": "memory/2026-04-13.md",
+      "startLine": 1,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "- En `nexplay`, se confirmó corrección del archivo `src/app/dashboard/page.tsx` suficiente para ejecutar `npm run build` limpio. - Se realizó commit y push en rama `production` con commit `74dc753` y mensaje `Reparar estructura JSX del dashboard`. - Se confirmó que no existe script `npm run deploy` en el proyecto, pero sí existe workflow `.github/workflows/deploy.yml` que despliega a GoDaddy por FTP al hacer push a `production`. - Quedaron cambios sin trackear fuera de ese commit en `backend/scripts/`; no fueron incluidos.",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.7510179294613142,
+      "maxScore": 0.3942730112341184,
+      "firstRecalledAt": "2026-04-16T16:33:41.570Z",
+      "lastRecalledAt": "2026-04-16T16:44:03.925Z",
+      "queryHashes": [
+        "c69e9b4d23bc",
+        "0df8af01fc76"
+      ],
+      "recallDays": [
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "src/app/dashboard/page.tsx",
+        "github/workflows/deploy.yml",
+        "backend/scripts",
+        "nexplay",
+        "confirmó",
+        "corrección",
+        "archivo",
+        "src"
+      ]
+    },
+    "memory:memory/2026-04-16.md:1:21": {
+      "key": "memory:memory/2026-04-16.md:1:21",
+      "path": "memory/2026-04-16.md",
+      "startLine": 1,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "# 2026-04-16 ## Nexplay UI y arquitectura - Se consolidó la separación UX entre `/panel` (Centro de control operativo con KPIs diarios) y `/dashboard` (área de configuración/admin sin KPIs del día). - Se definió y se implementó un estándar para manejo de imágenes en NEXPLAY: módulo backend `Files` con endpoint `POST /files/upload-image`, almacenamiento de archivos en `backend/uploads/<kind>/...` y exposición estática bajo `/uploads/...`. - Todos los formularios actuales que usan imágenes (logo de tenant, imagen de tienda, imagen de zona, cover de juego y avatar de usuario) ahora incluyen botón de upload que llama al nuevo endpoint y autocompleta el campo URL con la ruta pública resultante.",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4917222046092963,
+      "maxScore": 0.4917222046092963,
+      "firstRecalledAt": "2026-04-17T01:10:44.777Z",
+      "lastRecalledAt": "2026-04-17T01:10:44.777Z",
+      "queryHashes": [
+        "c69e9b4d23bc"
+      ],
+      "recallDays": [
+        "2026-04-16"
+      ],
+      "conceptTags": [
+        "configuración",
+        "configuración/admin",
+        "files/upload-image",
+        "backend/uploads",
+        "nexplay",
+        "arquitectura",
+        "consolidó",
+        "separación"
+      ]
+    },
+    "memory:memory/2026-04-17.md:1:5": {
+      "key": "memory:memory/2026-04-17.md:1:5",
+      "path": "memory/2026-04-17.md",
+      "startLine": 1,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "# Durable Memories - 2026-04-17 ## Important Context Update - Todo el proceso de despliegue de la aplicación web para clientes de NEXPLAY es gestionado a través de GitHub hacia GoDaddy y el Droplet, no se realizan modificaciones locales en la máquina. - El enfoque debe centrarse exclusivamente en el flujo de trabajo de GitHub y las configuraciones correspondientes para el despliegue.",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.5735039336428887,
+      "maxScore": 0.5735039336428887,
+      "firstRecalledAt": "2026-04-17T14:38:42.058Z",
+      "lastRecalledAt": "2026-04-17T14:38:42.058Z",
+      "queryHashes": [
+        "1919c9dcb2af"
+      ],
+      "recallDays": [
+        "2026-04-17"
+      ],
+      "conceptTags": [
+        "durable",
+        "memories",
+        "important",
+        "context",
+        "update",
+        "todo",
+        "proceso",
+        "despliegue"
+      ]
+    }
+  }
+}

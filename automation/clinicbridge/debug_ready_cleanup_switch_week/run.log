@@ -1,0 +1,47 @@
+[2026-04-06T14:10:21.739Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T14:10:24.790Z] login:submitted
+[2026-04-06T14:10:30.902Z] login:navigation_detected {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T14:10:33.938Z] agenda:state {"url":"https://professional.cliniweb.com/agenda","hasScheduler":true,"hasViewSelect":true,"hasDoctorName":true,"loadingVisible":true,"overlayVisible":true,"currentViewValue":"0","activeDay":true,"activeWeek":false}
+[2026-04-06T14:10:34.740Z] inspect:agenda_ready {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"0","activeDay":true,"activeWeek":false,"dateLabel":"6 Abr 2026","scaleBar":"Lunes 6 Abr 2026","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_day","loadingVisible":true,"overlayVisible":true}
+[2026-04-06T14:16:13.289Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T14:16:16.419Z] login:submitted
+[2026-04-06T14:16:21.919Z] login:navigation_detected {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T14:16:24.957Z] agenda:state {"url":"https://professional.cliniweb.com/agenda","hasScheduler":true,"hasViewSelect":true,"hasDoctorName":true,"loadingVisible":true,"overlayVisible":true,"currentViewValue":"0","activeDay":true,"activeWeek":false}
+[2026-04-06T14:16:25.800Z] inspect:agenda_ready {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"0","activeDay":true,"activeWeek":false,"dateLabel":"6 Abr 2026","scaleBar":"Lunes 6 Abr 2026","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_day","loadingVisible":true,"overlayVisible":true}
+[2026-04-06T14:16:25.804Z] cleanup:iteration:start {"iteration":1}
+[2026-04-06T14:26:52.791Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T14:26:55.951Z] login:submitted
+[2026-04-06T14:27:02.321Z] login:navigation_detected {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T14:27:05.360Z] agenda:state {"url":"https://professional.cliniweb.com/agenda","hasScheduler":true,"hasViewSelect":true,"hasDoctorName":true,"loadingVisible":true,"overlayVisible":true,"currentViewValue":"0","activeDay":true,"activeWeek":false}
+[2026-04-06T14:27:06.159Z] inspect:agenda_ready {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"0","activeDay":true,"activeWeek":false,"dateLabel":"6 Abr 2026","scaleBar":"Lunes 6 Abr 2026","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_day","loadingVisible":true,"overlayVisible":true}
+[2026-04-06T14:27:06.160Z] cleanup:iteration:start {"iteration":1}
+[2026-04-06T14:28:46.283Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T14:28:49.444Z] login:submitted
+[2026-04-06T14:28:55.253Z] login:navigation_detected {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T14:28:58.304Z] agenda:state {"url":"https://professional.cliniweb.com/agenda","hasScheduler":true,"hasViewSelect":true,"hasDoctorName":true,"loadingVisible":true,"overlayVisible":true,"currentViewValue":"0","activeDay":true,"activeWeek":false}
+[2026-04-06T14:28:59.041Z] inspect:agenda_ready {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"0","activeDay":true,"activeWeek":false,"dateLabel":"6 Abr 2026","scaleBar":"Lunes 6 Abr 2026","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_day","loadingVisible":true,"overlayVisible":true}
+[2026-04-06T14:28:59.041Z] cleanup:iteration:start {"iteration":1}
+[2026-04-06T14:28:59.614Z] inspect:cleanup_1_after_overlay_hide {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"0","activeDay":true,"activeWeek":false,"dateLabel":"6 Abr 2026","scaleBar":"Lunes 6 Abr 2026","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_day","loadingVisible":true,"overlayVisible":true}
+[2026-04-06T14:29:00.675Z] inspect:cleanup_1_after_loading_hide {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"0","activeDay":true,"activeWeek":false,"dateLabel":"6 Abr 2026","scaleBar":"Lunes 6 Abr 2026","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_day","loadingVisible":false,"overlayVisible":true}
+[2026-04-06T14:29:00.675Z] cleanup:iteration:end {"iteration":1}
+[2026-04-06T14:29:00.676Z] cleanup:iteration:start {"iteration":2}
+[2026-04-06T14:29:01.284Z] inspect:cleanup_2_after_overlay_hide {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"0","activeDay":true,"activeWeek":false,"dateLabel":"6 Abr 2026","scaleBar":"Lunes 6 Abr 2026","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_day","loadingVisible":false,"overlayVisible":true}
+[2026-04-06T14:29:02.388Z] inspect:cleanup_2_after_loading_hide {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"0","activeDay":true,"activeWeek":false,"dateLabel":"6 Abr 2026","scaleBar":"Lunes 6 Abr 2026","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_day","loadingVisible":false,"overlayVisible":true}
+[2026-04-06T14:29:02.388Z] cleanup:iteration:end {"iteration":2}
+[2026-04-06T14:29:02.389Z] cleanup:iteration:start {"iteration":3}
+[2026-04-06T14:29:02.974Z] inspect:cleanup_3_after_overlay_hide {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"0","activeDay":true,"activeWeek":false,"dateLabel":"6 Abr 2026","scaleBar":"Lunes 6 Abr 2026","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_day","loadingVisible":false,"overlayVisible":true}
+[2026-04-06T14:29:04.079Z] inspect:cleanup_3_after_loading_hide {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"0","activeDay":true,"activeWeek":false,"dateLabel":"6 Abr 2026","scaleBar":"Lunes 6 Abr 2026","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_day","loadingVisible":false,"overlayVisible":true}
+[2026-04-06T14:29:04.080Z] cleanup:iteration:end {"iteration":3}
+[2026-04-06T14:29:04.647Z] inspect:after_cleanup {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"0","activeDay":true,"activeWeek":false,"dateLabel":"6 Abr 2026","scaleBar":"Lunes 6 Abr 2026","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_day","loadingVisible":false,"overlayVisible":true}
+[2026-04-06T14:29:04.648Z] week:switch:start
+[2026-04-06T14:29:04.648Z] week:switch:method1:start
+[2026-04-06T14:29:07.874Z] inspect:after_select_change {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"1","activeDay":false,"activeWeek":true,"dateLabel":"6 Abr 2026 – 12 Abr 2026","scaleBar":"Lunes 06","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_week","loadingVisible":false,"overlayVisible":true}
+[2026-04-06T14:29:07.874Z] week:switch:method1:end
+[2026-04-06T14:29:07.874Z] week:switch:method2:start
+[2026-04-06T14:29:10.879Z] week:switch:method2:error {"message":"locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator('.week_tab').first()\n    - locator resolved to <div role=\"button\" name=\"week_tab\" aria-label=\"Semana\" aria-pressed=\"true\" class=\"dhx_cal_tab weekTab week_tab active\">Semana</div>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    6 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 500ms\n"}
+[2026-04-06T14:29:13.977Z] inspect:after_week_tab_click {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"1","activeDay":false,"activeWeek":true,"dateLabel":"6 Abr 2026 – 12 Abr 2026","scaleBar":"Lunes 06","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_week","loadingVisible":false,"overlayVisible":true}
+[2026-04-06T14:29:13.978Z] week:switch:method2:end
+[2026-04-06T14:29:13.978Z] week:switch:method3:start
+[2026-04-06T14:29:17.276Z] inspect:after_dom_week_tab_click {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"1","activeDay":false,"activeWeek":true,"dateLabel":"6 Abr 2026 – 12 Abr 2026","scaleBar":"Lunes 06","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_week","loadingVisible":false,"overlayVisible":true}
+[2026-04-06T14:29:17.278Z] week:switch:method3:end
+[2026-04-06T14:29:17.940Z] inspect:after_switch_attempts {"url":"https://professional.cliniweb.com/agenda","currentViewValue":"1","activeDay":false,"activeWeek":true,"dateLabel":"6 Abr 2026 – 12 Abr 2026","scaleBar":"Lunes 06","schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_week","loadingVisible":false,"overlayVisible":true}

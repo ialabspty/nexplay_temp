@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Mis Paquetes</title>
+	<link rel="stylesheet" type="text/css" id="jquery-comments-css" href="https://crm.panacargalogistic.com/assets/plugins/jquery-comments/css/jquery-comments.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="frappe-gantt-css" href="https://crm.panacargalogistic.com/assets/plugins/frappe/frappe-gantt.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="fullcalendar-css" href="https://crm.panacargalogistic.com/assets/plugins/fullcalendar/lib/main.min.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="reset-css" href="https://crm.panacargalogistic.com/assets/css/reset.css?v=1774590007">
+<link rel="stylesheet" type="text/css" id="bootstrap-css" href="https://crm.panacargalogistic.com/assets/plugins/bootstrap/css/bootstrap.min.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="roboto-css" href="https://crm.panacargalogistic.com/assets/plugins/roboto/roboto.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="datatables-css" href="https://crm.panacargalogistic.com/assets/plugins/datatables/datatables.min.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="fontawesome-css" href="https://crm.panacargalogistic.com/assets/plugins/font-awesome/css/font-awesome.min.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="datetimepicker-css" href="https://crm.panacargalogistic.com/assets/plugins/datetimepicker/jquery.datetimepicker.min.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="bootstrap-select-css" href="https://crm.panacargalogistic.com/assets/plugins/bootstrap-select/css/bootstrap-select.min.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="dropzone-basic-css" href="https://crm.panacargalogistic.com/assets/plugins/dropzone/min/basic.min.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="dropzone-css" href="https://crm.panacargalogistic.com/assets/plugins/dropzone/min/dropzone.min.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="lightbox-css" href="https://crm.panacargalogistic.com/assets/plugins/lightbox/css/lightbox.min.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="colorpicker-css" href="https://crm.panacargalogistic.com/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css?v=2.9.3">
+<link rel="stylesheet" type="text/css" id="bootstrap-overrides-css" href="https://crm.panacargalogistic.com/assets/css/bs-overides.css?v=1774590007">
+<link rel="stylesheet" type="text/css" id="theme-css" href="https://crm.panacargalogistic.com/assets/themes/perfex/css/style.css?v=1774590007">
+	<script src="https://crm.panacargalogistic.com/assets/plugins/jquery/jquery.min.js"></script>
+	<link href="https://crm.panacargalogistic.com/assets/css/custom.css" rel="stylesheet" type="text/css" id="custom-css">
+    <script>
+        if (typeof(jQuery) === 'undefined' && !window.deferAfterjQueryLoaded) {
+            window.deferAfterjQueryLoaded = [];
+            Object.defineProperty(window, "$", {
+                set: function(value) {
+                    window.setTimeout(function() {
+                        $.each(window.deferAfterjQueryLoaded, function(index, fn) {
+                            fn();
+                        });
+                    }, 0);
+                    Object.defineProperty(window, "$", {
+                        value: value
+                    });
+                },
+                configurable: true
+            });
+        }
+
+        var csrfData = {"formatted":{"csrf_token_name":"4ec83fc14299cfee0b509633c1141e85"},"token_name":"csrf_token_name","hash":"4ec83fc14299cfee0b509633c1141e85"};
+
+        if (typeof(jQuery) == 'undefined') {
+            window.deferAfterjQueryLoaded.push(function() {
+                csrf_jquery_ajax_setup();
+            });
+            window.addEventListener('load', function() {
+                csrf_jquery_ajax_setup();
+            }, true);
+        } else {
+            csrf_jquery_ajax_setup();
+        }
+
+        function csrf_jquery_ajax_setup() {
+            $.ajaxSetup({
+                data: csrfData.formatted
+            });
+
+            $(document).ajaxError(function(event, request, settings) {
+                if (request.status === 419) {
+                    alert_float('warning', 'Page expired, refresh the page make an action.')
+                }
+            });
+        }
+    </script>
+<style class="custom_style_links-color">
+a{
+color:#373253;
+}
+</style>
+<style class="custom_style_links-hover-focus">
+a:hover,a:focus{
+color:#06d6a0;
+}
+</style>
+<style class="custom_style_table-headings">
+table.dataTable thead tr>th, .table.dataTable>thead:first-child>tr:first-child>th{
+color:#373253;
+}
+</style>
+<style class="custom_style_table-items-heading">
+.table.items thead{
+background:#373253;
+}
+</style>
+<style class="custom_style_admin-login-background">
+body.login_admin{
+background:#ffffff;
+}
+</style>
+<style class="custom_style_text-danger">
+.text-danger{
+color:#d90429;
+}
+</style>
+<style class="custom_style_text-info">
+.text-info{
+color:#373253;
+}
+</style>
+<style class="custom_style_text-success">
+.text-success{
+color:#06d6a0;
+}
+</style>
+<style class="custom_style_tabs-links">
+.nav-tabs>li>a{
+color:#373253;
+}
+</style>
+<style class="custom_style_tabs-active-border">
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover{
+border-bottom-color:#373253;
+}
+</style>
+<style class="custom_style_btn-default">
+.btn-default{
+background-color:#f0efeb;
+}
+
+                        .btn-default:focus,.btn-default.focus,.btn-default:hover,.btn-default:active,
+                        .btn-default.active,
+                        .open > .dropdown-toggle.btn-default,.btn-default:active:hover,
+                        .btn-default.active:hover,
+                        .open > .dropdown-toggle.btn-default:hover,
+                        .btn-default:active:focus,
+                        .btn-default.active:focus,
+                        .open > .dropdown-toggle.btn-default:focus,
+                        .btn-default:active.focus,
+                        .btn-default.active.focus,
+                        .open > .dropdown-toggle.btn-default.focus,
+                        .btn-default:active,
+                        .btn-default.active,
+                        .open > .dropdown-toggle.btn-default{background-color:#bebdb9;color:#fff;border-color:#bebdb9}
+                        .btn-default.disabled,
+                        .btn-default[disabled],
+                        fieldset[disabled] .btn-default,
+                        .btn-default.disabled:hover,
+                        .btn-default[disabled]:hover,
+                        fieldset[disabled] .btn-default:hover,
+                        .btn-default.disabled:focus,
+                        .btn-default[disabled]:focus,
+                        fieldset[disabled] .btn-default:focus,
+                        .btn-default.disabled.focus,
+                        .btn-default[disabled].focus,
+                        fieldset[disabled] .btn-default.focus,
+                        .btn-default.disabled:active,
+                        .btn-default[disabled]:active,
+                        fieldset[disabled] .btn-default:active,
+                        .btn-default.disabled.active,
+                        .btn-default[disabled].active,
+                        fieldset[disabled] .btn-default.active {
+                            background-color: #ffffff;color:#fff;border-color:#ffffff;}.btn-default {
+border-color:#f0efeb;
+}
+</style>
+<style class="custom_style_btn-info">
+.btn-info{
+background-color:#373253;
+}
+
+                        .btn-info:focus,.btn-info.focus,.btn-info:hover,.btn-info:active,
+                        .btn-info.active,
+                        .open > .dropdown-toggle.btn-info,.btn-info:active:hover,
+                        .btn-info.active:hover,
+                        .open > .dropdown-toggle.btn-info:hover,
+                        .btn-info:active:focus,
+                        .btn-info.active:focus,
+                        .open > .dropdown-toggle.btn-info:focus,
+                        .btn-info:active.focus,
+                        .btn-info.active.focus,
+                        .open > .dropdown-toggle.btn-info.focus,
+                        .btn-info:active,
+                        .btn-info.active,
+                        .open > .dropdown-toggle.btn-info{background-color:#050021;color:#fff;border-color:#050021}
+                        .btn-info.disabled,
+                        .btn-info[disabled],
+                        fieldset[disabled] .btn-info,
+                        .btn-info.disabled:hover,
+                        .btn-info[disabled]:hover,
+                        fieldset[disabled] .btn-info:hover,
+                        .btn-info.disabled:focus,
+                        .btn-info[disabled]:focus,
+                        fieldset[disabled] .btn-info:focus,
+                        .btn-info.disabled.focus,
+                        .btn-info[disabled].focus,
+                        fieldset[disabled] .btn-info.focus,
+                        .btn-info.disabled:active,
+                        .btn-info[disabled]:active,
+                        fieldset[disabled] .btn-info:active,
+                        .btn-info.disabled.active,
+                        .btn-info[disabled].active,
+                        fieldset[disabled] .btn-info.active {
+                            background-color: #696485;color:#fff;border-color:#696485;}.btn-info {
+border-color:#373253;
+}
+</style>
+<style class="custom_style_btn-success">
+.btn-success{
+background-color:#02c39a;
+}
+
+                        .btn-success:focus,.btn-success.focus,.btn-success:hover,.btn-success:active,
+                        .btn-success.active,
+                        .open > .dropdown-toggle.btn-success,.btn-success:active:hover,
+                        .btn-success.active:hover,
+                        .open > .dropdown-toggle.btn-success:hover,
+                        .btn-success:active:focus,
+                        .btn-success.active:focus,
+                        .open > .dropdown-toggle.btn-success:focus,
+                        .btn-success:active.focus,
+                        .btn-success.active.focus,
+                        .open > .dropdown-toggle.btn-success.focus,
+                        .btn-success:active,
+                        .btn-success.active,
+                        .open > .dropdown-toggle.btn-success{background-color:#009168;color:#fff;border-color:#009168}
+                        .btn-success.disabled,
+                        .btn-success[disabled],
+                        fieldset[disabled] .btn-success,
+                        .btn-success.disabled:hover,
+                        .btn-success[disabled]:hover,
+                        fieldset[disabled] .btn-success:hover,
+                        .btn-success.disabled:focus,
+                        .btn-success[disabled]:focus,
+                        fieldset[disabled] .btn-success:focus,
+                        .btn-success.disabled.focus,
+                        .btn-success[disabled].focus,
+                        fieldset[disabled] .btn-success.focus,
+                        .btn-success.disabled:active,
+                        .btn-success[disabled]:active,
+                        fieldset[disabled] .btn-success:active,
+                        .btn-success.disabled.active,
+                        .btn-success[disabled].active,
+                        fieldset[disabled] .btn-success.active {
+                            background-color: #34f5cc;color:#fff;border-color:#34f5cc;}.btn-success {
+border-color:#02c39a;
+}
+</style>
+<style class="custom_style_btn-danger">
+.btn-danger{
+background-color:#d90429;
+}
+
+                        .btn-danger:focus,.btn-danger.focus,.btn-danger:hover,.btn-danger:active,
+                        .btn-danger.active,
+                        .open > .dropdown-toggle.btn-danger,.btn-danger:active:hover,
+                        .btn-danger.active:hover,
+                        .open > .dropdown-toggle.btn-danger:hover,
+                        .btn-danger:active:focus,
+                        .btn-danger.active:focus,
+                        .open > .dropdown-toggle.btn-danger:focus,
+                        .btn-danger:active.focus,
+                        .btn-danger.active.focus,
+                        .open > .dropdown-toggle.btn-danger.focus,
+                        .btn-danger:active,
+                        .btn-danger.active,
+                        .open > .dropdown-toggle.btn-danger{background-color:#a70000;color:#fff;border-color:#a70000}
+                        .btn-danger.disabled,
+                        .btn-danger[disabled],
+                        fieldset[disabled] .btn-danger,
+                        .btn-danger.disabled:hover,
+                        .btn-danger[disabled]:hover,
+                        fieldset[disabled] .btn-danger:hover,
+                        .btn-danger.disabled:focus,
+                        .btn-danger[disabled]:focus,
+                        fieldset[disabled] .btn-danger:focus,
+                        .btn-danger.disabled.focus,
+                        .btn-danger[disabled].focus,
+                        fieldset[disabled] .btn-danger.focus,
+                        .btn-danger.disabled:active,
+                        .btn-danger[disabled]:active,
+                        fieldset[disabled] .btn-danger:active,
+                        .btn-danger.disabled.active,
+                        .btn-danger[disabled].active,
+                        fieldset[disabled] .btn-danger.active {
+                            background-color: #ff365b;color:#fff;border-color:#ff365b;}.btn-danger {
+border-color:#d90429;
+}
+</style>
+<style class="custom_style_customers-navigation">
+.customers .navbar-default{
+background:#ffffff;
+}
+</style>
+<style class="custom_style_customers-navigation-links">
+.customers .navbar-default .navbar-nav>li>a{
+color:#373253;
+}
+</style>
+<style class="custom_style_customers-footer-background">
+.customers footer{
+background:#f0efeb;
+}
+</style>
+<style class="custom_style_customers-footer-text">
+.customers footer{
+color:#373253;
+}
+</style>
+<style class="custom_style_modal-heading">
+.modal-header{
+background:#373253;
+}
+</style>
+<style class="custom_style_modal-heading-color">
+.modal-header .modal-title{
+color:#ffffff;
+}
+</style>
+<style class="custom_style_modal-close-button-color">
+.modal-header .close{
+color:#ffffff;
+}
+</style>
+<style class="custom_style_modal-header-white-text-color">
+.modal-header > *:not(.modal-title){
+color:#ffffff;
+}
+</style>
+<style id="theme_style_custom_css">
+li.dashboard_user,
+li.quick-links
+{
+display:none;
+visibility:hidden;
+}
+
+#side-menu li .nav-second-level li a,
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .navbar-pills.nav-tabs>li>a:focus, .navbar-pills.nav-tabs>li>a:hover
+ {
+color: #373253;
+font-weight:bolder;
+}
+</style>
+<link href="https://crm.panacargalogistic.com/modules/consignee/assets/css/style.css?v=1774590007"  rel="stylesheet" type="text/css" /><script>var site_url = 'https://crm.panacargalogistic.com/';</script><script>var finance = 'Finanzas';</script>    <script>
+        function custom_fields_hyperlink(){
+         var cf_hyperlink = $('body').find('.cf-hyperlink');
+         if(cf_hyperlink.length){
+           $.each(cf_hyperlink,function(){
+            var cfh_wrapper = $(this);
+            if(!cfh_wrapper.hasClass('cfh-initialized')) {
+
+                var cfh_field_to = cfh_wrapper.attr('data-fieldto');
+                var cfh_field_id = cfh_wrapper.attr('data-field-id');
+                var textEl = $('body').find('#custom_fields_'+cfh_field_to+'_'+cfh_field_id+'_popover');
+                var hiddenField = $("#custom_fields\\\["+cfh_field_to+"\\\]\\\["+cfh_field_id+"\\\]");
+                var cfh_value = cfh_wrapper.attr('data-value');
+                hiddenField.val(cfh_value);
+
+                if($(hiddenField.val()).html() != ''){
+                    textEl.html($(hiddenField.val()).html());
+                }
+                var cfh_field_name = cfh_wrapper.attr('data-field-name');
+
+                textEl.popover({
+                    html: true,
+                    trigger: "manual",
+                    placement: "top",
+                    title:cfh_field_name,
+                    content:function(){
+                        return $(cfh_popover_templates[cfh_field_id]).html();
+                    }
+                }).on("click", function(e){
+                    var $popup = $(this);
+                    $popup.popover("toggle");
+                    var titleField = $("#custom_fields_"+cfh_field_to+"_"+cfh_field_id+"_title");
+                    var urlField = $("#custom_fields_"+cfh_field_to+"_"+cfh_field_id+"_link");
+                    var ttl = $(hiddenField.val()).html();
+                    var cfUrl = $(hiddenField.val()).attr("href");
+                    if(cfUrl){
+                        $('#cf_hyperlink_open_'+cfh_field_id).attr('href',(cfUrl.indexOf('://') === -1 ? 'http://' + cfUrl : cfUrl));
+                    }
+                    titleField.val(ttl);
+                    urlField.val(cfUrl);
+                    $("#custom_fields_"+cfh_field_to+"_"+cfh_field_id+"_btn-save").click(function(){
+                        hiddenField.val((urlField.val() != '' ? '<a href="'+urlField.val()+'" target="_blank">' + titleField.val() + '</a>' : ''));
+                        textEl.html(titleField.val() == "" ? "Click aquí para agregar link" : titleField.val());
+                        $popup.popover("toggle");
+                    });
+                    $("#custom_fields_"+cfh_field_to+"_"+cfh_field_id+"_btn-cancel").click(function(){
+                        if(urlField.val() == ''){
+                            hiddenField.val('');
+                        }
+                        $popup.popover("toggle");
+                    });
+                });
+                cfh_wrapper.addClass('cfh-initialized')
+            }
+        });
+       }
+     }
+ </script>
+     <script>
+        
+        var site_url = 'https://crm.panacargalogistic.com/',
+        app = {},
+        cfh_popover_templates  = {};
+
+        app.isRTL = 'false';
+        app.is_mobile = '';
+        app.months_json = '["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]';
+
+        app.browser = "";
+        app.max_php_ini_upload_size_bytes = "402653184";
+        app.locale = "es";
+
+        app.options = {
+            calendar_events_limit: "4",
+            calendar_first_day: "0",
+            tables_pagination_limit: "30",
+            enable_google_picker: "0",
+            google_client_id: "",
+            google_api: "",
+            default_view_calendar: "dayGridMonth",
+            timezone: "America/Panama",
+            allowed_files: ".png,.jpg,.pdf,.doc,.docx,.xls,.xlsx,.txt",
+            date_format: "m/d/Y",
+            time_format: "12",
+        };
+
+        app.lang = {
+            file_exceeds_maxfile_size_in_form: "El archivo subido excede la directiva mAX_FILE_SIZE que se especificó en el formulario HTML" + ' (384 MB)',
+            file_exceeds_max_filesize: "El archivo subido excede la directiva peso máximo permitido (upload_max_filesize)" + ' (384 MB)',
+            validation_extension_not_allowed: "Esta extesión de archivo no es válida",
+            sign_document_validation: "Por favor firme el documento.",
+            dt_length_menu_all: "Todo",
+            drop_files_here_to_upload: "Dejar caer archivo aqui para cargar",
+            browser_not_support_drag_and_drop: "Tu navegador no soporte la opción de dejar caer archivo para cargar.",
+            confirm_action_prompt: "Estás seguro de querer realizar ésta acción?",
+            datatables: {"emptyTable":"No se encontraron entradas","info":"Mostrando desde _START_ hasta _END_ de _TOTAL_ entradas","infoEmpty":"Mostrando 0 al 0 de 0 entradas","infoFiltered":"(Filtrado de _MAX_ total de entradas)","lengthMenu":"_MENU_","loadingRecords":"Cargando\u2026","processing":"<div class=\"dt-loader\"><\/div>","search":"<div class=\"input-group\"><span class=\"input-group-addon\"><span class=\"fa fa-search\"><\/span><\/span>","searchPlaceholder":"Buscar:","zeroRecords":"No se encontraron coincidencias","paginate":{"first":"Primero","last":"\u00daltimo","next":"Siguiente","previous":"Anterior"},"aria":{"sortAscending":"Activar para ordenar la columna ascendente","sortDescending":"Activar para ordenar la columna descendente"}},
+            discussions_lang: {"discussion_add_comment":"Agregar comentario","discussion_newest":"El m\u00e1s reciente","discussion_oldest":"El m\u00e1s antiguo","discussion_attachments":"Archivos adjuntos","discussion_send":"Enviar","discussion_reply":"Respuesta","discussion_edit":"Editar","discussion_edited":"Modificar","discussion_you":"T\u00fa","discussion_save":"Guardar","discussion_delete":"Borrar","discussion_view_all_replies":"Ense\u00f1ar todas las respuestas","discussion_hide_replies":"Ocultar respuestas","discussion_no_comments":"Ning\u00fan comentario","discussion_no_attachments":"Ning\u00fan archivo adjunto","discussion_attachments_drop":"Arrastrar y soltar para cargar el archivo"},
+        };
+        window.addEventListener('load',function(){
+            custom_fields_hyperlink();
+        });
+    </script>
+        <script>
+        /**
+         * @deprecated 2.3.2
+         * Do not use any of these below as will be removed in future updates.
+         */
+        var isRTL = 'false';
+
+        var calendar_events_limit = "4";
+        var maximum_allowed_ticket_attachments = "4";
+
+        var max_php_ini_upload_size_bytes  = "402653184";
+
+        var file_exceeds_maxfile_size_in_form = "El archivo subido excede la directiva mAX_FILE_SIZE que se especificó en el formulario HTML" + ' (384 MB)';
+        var file_exceeds_max_filesize = "El archivo subido excede la directiva peso máximo permitido (upload_max_filesize)" + ' (384 MB)';
+
+        var validation_extension_not_allowed = "Esta extesión de archivo no es válida";
+        var sign_document_validation = "Por favor firme el documento.";
+        var dt_length_menu_all = "Todo";
+
+        var drop_files_here_to_upload = "Dejar caer archivo aqui para cargar";
+        var browser_not_support_drag_and_drop = "Tu navegador no soporte la opción de dejar caer archivo para cargar.";
+        var remove_file = "Eliminar archivo";
+        var tables_pagination_limit = "30";
+        var enable_google_picker = "0";
+        var google_client_id = "";
+        var google_api = "";
+        var acceptable_mimes = ".png,.jpg,.pdf,.doc,.docx,.xls,.xlsx,.txt, image/png, image/jpeg, application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document, application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, text/plain";
+        var date_format = "m/d/Y";
+        var time_format = "12";
+        var default_view_calendar = "dayGridMonth";
+        var dt_lang = {"emptyTable":"No se encontraron entradas","info":"Mostrando desde _START_ hasta _END_ de _TOTAL_ entradas","infoEmpty":"Mostrando 0 al 0 de 0 entradas","infoFiltered":"(Filtrado de _MAX_ total de entradas)","lengthMenu":"_MENU_","loadingRecords":"Cargando\u2026","processing":"<div class=\"dt-loader\"><\/div>","search":"<div class=\"input-group\"><span class=\"input-group-addon\"><span class=\"fa fa-search\"><\/span><\/span>","searchPlaceholder":"Buscar:","zeroRecords":"No se encontraron coincidencias","paginate":{"first":"Primero","last":"\u00daltimo","next":"Siguiente","previous":"Anterior"},"aria":{"sortAscending":"Activar para ordenar la columna ascendente","sortDescending":"Activar para ordenar la columna descendente"}};
+        var discussions_lang = {"discussion_add_comment":"Agregar comentario","discussion_newest":"El m\u00e1s reciente","discussion_oldest":"El m\u00e1s antiguo","discussion_attachments":"Archivos adjuntos","discussion_send":"Enviar","discussion_reply":"Respuesta","discussion_edit":"Editar","discussion_edited":"Modificar","discussion_you":"T\u00fa","discussion_save":"Guardar","discussion_delete":"Borrar","discussion_view_all_replies":"Ense\u00f1ar todas las respuestas","discussion_hide_replies":"Ocultar respuestas","discussion_no_comments":"Ning\u00fan comentario","discussion_no_attachments":"Ning\u00fan archivo adjunto","discussion_attachments_drop":"Arrastrar y soltar para cargar el archivo"};
+        var confirm_action_prompt = "Estás seguro de querer realizar ésta acción?";
+        var cf_translate_input_link_tip = "Click aquí para agregar link";
+
+        var locale = 'es';
+        var timezone = "America/Panama";
+        var allowed_files = ".png,.jpg,.pdf,.doc,.docx,.xls,.xlsx,.txt";
+        var calendar_first_day = '0';
+        var months_json = '["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]';
+    </script>
+        </head>
+<body class="customers " >
+	<nav class="navbar navbar-default header">
+   <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#theme-navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+         <a href="https://crm.panacargalogistic.com/" class="logo img-responsive navbar-brand logo">
+        <img src="https://crm.panacargalogistic.com/uploads/company/f120725ad77e54f849d0da7bc15b1afd.png" class="img-responsive" alt="PANACARGA LOGISTIC S.A.">
+        </a>      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="theme-navbar-collapse">
+
+               <ul class="nav navbar-nav navbar-right">
+
+                                 <li id="top_search" style="display: n-one;">
+                     <div class="form-group">
+                        <label class="sr--only" for="tracking-number" style="text-transform:uppercase ;">Buscar Tracking</label>
+                        <div class="input-group">
+                           <input type="text" class="form-control" name="tracking-number" id="tracking-number" placeholder="Escríba el Tracking">
+                           <div class="input-group-addon cursor action-search-tracking-number" style="cursor:pointer;"><i class="fa fa-search"></i></div>
+                        </div>
+                     </div>
+                  </li>
+                  
+                                                         <li class="customers-nav-item-my_warehouse"
+                        >
+                        <a href="https://crm.panacargalogistic.com/client/warehouse/management"
+                           >
+                           Mis Paquetes                        </a>
+                     </li>
+                                       <li class="customers-nav-item-preload_package"
+                        >
+                        <a href="https://crm.panacargalogistic.com/client/preloads/management"
+                           >
+                           Últimas Precargas                        </a>
+                     </li>
+                                       <li class="customers-nav-item-invoices"
+                        >
+                        <a href="https://crm.panacargalogistic.com/clients/invoices"
+                           >
+                           Facturas                        </a>
+                     </li>
+                                                                           <li class="dropdown customers-nav-item-profile">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                           <img src="https://crm.panacargalogistic.com/assets/images/user-placeholder.jpg" data-toggle="tooltip" data-title="PREMIUM CARGO COSTA SUR" data-placement="bottom" class="client-profile-image-small mright5">
+                           <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu animated fadeIn">
+                           <li class="customers-nav-item-edit-profile">
+                              <a href="https://crm.panacargalogistic.com/clients/profile">
+                                 Perfil                              </a>
+                           </li>
+                                                                                          <li class="customers-nav-item-edit-profile">
+                                    <a href="https://crm.panacargalogistic.com/contacts">
+                                       Contacts                                    </a>
+                                 </li>
+                                                            <li class="customers-nav-item-company-info">
+                                 <a href="https://crm.panacargalogistic.com/clients/company">
+                                    Detalles de la empresa                                 </a>
+                              </li>
+                                                                                                            <li class="customers-nav-item-announcements">
+                              <a href="https://crm.panacargalogistic.com/clients/announcements">
+                                 Anuncios                                                               </a>
+                           </li>
+                                                         <li class="dropdown-submenu pull-left customers-nav-item-languages">
+                                 <a href="#" tabindex="-1">
+                                    Idioma                                 </a>
+                                 <ul class="dropdown-menu dropdown-menu-left">
+                                    <li class="active">
+                                       <a href="https://crm.panacargalogistic.com/clients/change_language">
+                                          Sistema por defecto                                       </a>
+                                    </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/greek">
+                                             Greek                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/czech">
+                                             Czech                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/polish">
+                                             Polish                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/dutch">
+                                             Dutch                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/vietnamese">
+                                             Vietnamese                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/german">
+                                             German                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/chinese">
+                                             Chinese                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/english">
+                                             English                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/turkish">
+                                             Turkish                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/indonesia">
+                                             Indonesia                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/swedish">
+                                             Swedish                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/ukrainian">
+                                             Ukrainian                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/french">
+                                             French                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/bulgarian">
+                                             Bulgarian                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/spanish">
+                                             Spanish                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/portuguese">
+                                             Portuguese                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/romanian">
+                                             Romanian                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/italian">
+                                             Italian                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/persian">
+                                             Persian                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/slovak">
+                                             Slovak                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/japanese">
+                                             Japanese                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/russian">
+                                             Russian                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/portuguese_br">
+                                             Portuguese_br                                          </a>
+                                       </li>
+                                                                           <li >
+                                          <a href="https://crm.panacargalogistic.com/clients/change_language/catalan">
+                                             Catalan                                          </a>
+                                       </li>
+                                                                     </ul>
+                              </li>
+                                                      <li class="customers-nav-item-logout">
+                              <a href="https://crm.panacargalogistic.com/authentication/logout">
+                                 Cerrar sesión                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                                                   </ul>
+
+      </div>
+      <!-- /.navbar-collapse -->
+   </div>
+   <!-- /.container-fluid -->
+</nav>
+<div id="wrapper">
+   <div id="content">
+      <div class="container">
+         <div class="row">
+                     </div>
+      </div>
+            <div class="container" style="width: 90% !important;">
+                  <div class="row">
+                        <input type="hidden" name="status" value="all" />
+<input type="hidden" name="mode" value="all" />
+<input type="hidden" name="s" value="" />
+<input type="hidden" name="coloader_id" value="1435" />
+
+<div class="panel_s">
+
+    <div class="panel-body">
+		<div class="row">
+			<div class="col-md-8">
+				<h4 class="table-title" class="no-margin">Mis Paquetes				 en Panamá y Miami - Aéreo / Marítimo				</h4>
+				<script>document.title = $(".table-title").text();</script>
+			</div>
+			<div class="col-md-4">
+				<div class="_buttons text-right">
+					<a href="https://crm.panacargalogistic.com/client/warehouse/form" class="btn btn-primary">Nueva Precarga</a>
+				</div>
+			</div>
+		</div>
+		<hr class="hr-panel-heading">
+
+		<div class="">
+			<div class=""><table width="100%" class="dt-table-loading table table-warehouse-coloader"><thead><tr><th>ID</th><th>Status</th><th>Mode</th><th>WR#</th><th>Shipment</th><th>Registrado</th><th>Tienda/Comercio</th><th>Conseegne</th><th>Factura</th><th>Tracking</th><th>Tracking</th><th>PCS</th><th>Unidad</th><th>Peso</th><th>Length</th><th>Width</th><th>Height</th><th>Volumen</th><th>Cubicaje</th><th>Valor Declarado ($)</th><th><i class="fa fa-crogs text-primary"></i></th></tr></thead><tbody></tbody></table></div>
+		</div>
+		<a href="" class="download_file" target="_blank"></a>
+    </div>
+</div>
+
+
+<a id="open-url" target="_blank" href="" class="hide"></a>         </div>
+      </div>
+   </div>
+</div>
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<span class="copyright-footer">2026 Derechos de autor de PANACARGA LOGISTIC S.A.</span>
+											</div>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript" id="bootstrap-js" src="https://crm.panacargalogistic.com/assets/plugins/bootstrap/js/bootstrap.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="datatables-js" src="https://crm.panacargalogistic.com/assets/plugins/datatables/datatables.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="jquery-validation-js" src="https://crm.panacargalogistic.com/assets/plugins/jquery-validation/jquery.validate.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="jquery-validation-lang-js" src="https://crm.panacargalogistic.com/assets/plugins/jquery-validation/localization/messages_es.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="bootstrap-select-js" src="https://crm.panacargalogistic.com/assets/builds/bootstrap-select.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="bootstrap-select-lang-js" src="https://crm.panacargalogistic.com/assets/plugins/bootstrap-select/js/i18n/defaults-es_ES.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="datetimepicker-js" src="https://crm.panacargalogistic.com/assets/plugins/datetimepicker/jquery.datetimepicker.full.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="chart-js" src="https://crm.panacargalogistic.com/assets/plugins/Chart.js/Chart.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="colorpicker-js" src="https://crm.panacargalogistic.com/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="lightbox-js" src="https://crm.panacargalogistic.com/assets/plugins/lightbox/js/lightbox.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="dropzone-js" src="https://crm.panacargalogistic.com/assets/plugins/dropzone/min/dropzone.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="circle-progress-js" src="https://crm.panacargalogistic.com/assets/plugins/jquery-circle-progress/circle-progress.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="jquery-comments-js" src="https://crm.panacargalogistic.com/assets/plugins/jquery-comments/js/jquery-comments.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="frape-gantt-js" src="https://crm.panacargalogistic.com/assets/plugins/frappe/frappe-gantt-es2015.js?v=2.9.3"></script>
+<script type="text/javascript" id="moment-js" src="https://crm.panacargalogistic.com/assets/builds/moment.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="fullcalendar-js" src="https://crm.panacargalogistic.com/assets/plugins/fullcalendar/lib/main.min.js?v=2.9.3"></script>
+<script type="text/javascript" id="fullcalendar-lang-js" src="https://crm.panacargalogistic.com/assets/plugins/fullcalendar/lib/locales/es.js?v=2.9.3"></script>
+<script type="text/javascript" id="common-js" src="https://crm.panacargalogistic.com/assets/builds/common.js?v=2.9.3"></script>
+<script type="text/javascript" id="theme-global-js" src="https://crm.panacargalogistic.com/assets/themes/perfex/js/global.js?v=1774590007"></script>
+<script type="text/javascript" id="theme-js" src="https://crm.panacargalogistic.com/assets/themes/perfex/js/clients.js?v=1774590007"></script>
+<script src="https://crm.panacargalogistic.com/assets/themes/perfex/js/custom.js"></script><script src="https://crm.panacargalogistic.com/assets/plugins/inputmask/min/jquery.inputmask.bundle.min.js?v=1774590007"></script><script src="https://crm.panacargalogistic.com/assets/plugins/jquery.maskMoney/jquery.maskMoney.min.js?v=1774590007"></script><script src="https://crm.panacargalogistic.com/assets/plugins/underscore/underscore-min.js"></script><script src="https://crm.panacargalogistic.com/assets/builds/moment.min.js"></script><script src="https://crm.panacargalogistic.com/assets/js/download.js"></script><script src="https://crm.panacargalogistic.com/modules/consignee/assets/js/underscore/underscore-min.js"></script><script src="https://crm.panacargalogistic.com/modules/consignee/assets/js/guid.js?v=1774590007"></script><script src="https://crm.panacargalogistic.com/modules/consignee/assets/js/consignee.js?v=1.5.5"></script>
+<script>    app.lang.Select = "Select";
+    app.lang.Tracking = "Tracking";
+    app.lang.TypeTax = "Arancel";
+    app.lang.Tax = "Tax";
+    app.lang.TotalTax = "Total de Impuesto";
+    app.lang.PriceWithTax = "PriceWithTax";
+    app.lang.TrackingShipper = "Tienda/Comercio";
+    app.lang.Coloader = "Coloader";
+    app.lang.ProductPrice = "Valor Declarado ($)";
+    app.lang.CantDelete = "El paque fue cargado por un cliente. No puede borrarse.";
+    app.lang.DownloadXLS = "Descargar Precargas";
+    app.lang.Filter = "Filtrar";
+    app.lang.VerificationTracking = "Verificar Tracking";
+    app.lang.NumberOfTracking = "Búscar Número de Tracking";
+    app.lang.PurchaseDate = "Fecha de compra";
+    app.lang.Customer = "Cliente";
+    app.lang.ConnectionError = "Hubo un error de comunicación. Intente Nuevamente";
+    app.lang.wr_document = "Documento";
+    app.lang.wr_invoice = "Factura";
+    app.lang.wr_picture= "Imagen";
+    app.lang.processData= "Procesando...";
+    app.lang.UnableAvailableAWB = "El numero AWB esta en uso.";
+    app.lang.AvailableAWB = "Se puede usar el número AWB.";
+    app.lang.AskProcessBooking = "¿Desea procesar el booking?  Una vez aceptada, no se puede reversar.";
+    app.lang.ProcessBooking = "ProcessBooking";
+    app.lang.ProcessingBooking = "Procesando Booking";
+    app.lang.WR_COMMUNAL = "RECIBO COMUNAL";
+    app.lang.PACKAGE_UNKNOWN = "PAQUETE DESCONOCIDO";
+    app.lang.SELECTMODE = "Por favor primero seleccione el modo aére o marítimo.";
+    app.lang.RequiredBillDetails = "Required Container Details";
+</script>
+</body>
+</html>

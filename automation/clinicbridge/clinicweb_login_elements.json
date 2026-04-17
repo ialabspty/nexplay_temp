@@ -1,0 +1,132 @@
+{
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "__EVENTTARGET",
+      "name": "__EVENTTARGET",
+      "value": "",
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "__EVENTARGUMENT",
+      "name": "__EVENTARGUMENT",
+      "value": "",
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "__VIEWSTATE",
+      "name": "__VIEWSTATE",
+      "value": "+jFc4Thl6qkf/+WhhcXfjaaRsPThE7Rgop3PpeuQsEt9D+yi6LwGFPXl+F/9JesaLYqS87JN1RJMuPVrwtjb6VeQ5SmMK6/rDM0fiTg/lRR+e0dcQoreq1hzJ8Y7k250YIYvSgsvbvDgh7+237Rn8LNrYwHLbdK35XEi21SSO/GYQQd/qD77QJzDUZHWsqmFtqCvSuNsh/AQH9WRvZPkWp/Wr4nG7HJsTnTphNvZuVZoWlqsQ44xOLR2TkSzPSoqIb9r4/24T2ZlxMrw70d8EtSINM4NebB3dgnDT2SgAuR0LsIR3s+WxTYxH8AMagaz",
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "__VIEWSTATEGENERATOR",
+      "name": "__VIEWSTATEGENERATOR",
+      "value": "8A217C90",
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "txt_usuario",
+      "name": "txt_usuario",
+      "value": null,
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "id": "txt_password",
+      "name": "txt_password",
+      "value": null,
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "button",
+      "id": "btn_iniciar",
+      "name": "btn_iniciar",
+      "value": "Ingresar",
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hid_width",
+      "name": "hid_width",
+      "value": "1280",
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hid_height",
+      "name": "hid_height",
+      "value": "720",
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hid_va_direccion_ip_usuario",
+      "name": "hid_va_direccion_ip_usuario",
+      "value": "190.33.28.178",
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hid_resultado",
+      "name": "hid_resultado",
+      "value": null,
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hid_co_empresa",
+      "name": "hid_co_empresa",
+      "value": null,
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hid_nb_empresa",
+      "name": "hid_nb_empresa",
+      "value": null,
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "submit",
+      "id": "btn_submit",
+      "name": "btn_submit",
+      "value": null,
+      "placeholder": null
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "INPUT",
+      "type": "button",
+      "id": "btn_iniciar",
+      "name": "btn_iniciar",
+      "text": "Ingresar"
+    },
+    {
+      "tag": "INPUT",
+      "type": "submit",
+      "id": "btn_submit",
+      "name": "btn_submit",
+      "text": null
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+        <title>Cliniweb</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+	    <meta name="CODE_LANGUAGE" content="C#">
+	    <meta name="vs_defaultClientScript" content="JavaScript">
+	    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <script type="text/javascript" language="JavaScript" src="https://cdn.aspstatic.com/Bundles/scripts/common.min.js?v=1.0.9591.40773"></script><script type="text/javascript" language="JavaScript" src="https://cdn.aspstatic.com/Bundles/scripts/materialize.min.js?v=1.0.9591.40773"></script><script type="text/javascript" language="JavaScript" src="https://cdn.aspstatic.com/Bundles/scripts/services.min.js?v=1.0.9591.40773"></script><script type="text/javascript" language="JavaScript" src="https://cdn.aspstatic.com/Bundles/scripts/select2.min.js?v=1.0.9591.40773"></script><script type="text/javascript" language="JavaScript" src="https://cdn.aspstatic.com/Bundles/scripts/iniciosesion.min.js?v=1.0.9591.40773"></script><link href="https://cdn.aspstatic.com/Bundles/styles/portal-inicio.min.css?v=1.0.9591.40773" type="text/css" rel="stylesheet">
+
+        <script type="text/javascript">
+            AspControls.registerId("hid_width", AspControls.ControlName.inicio_sesion_hid_width);
+            AspControls.registerId("hid_height", AspControls.ControlName.inicio_sesion_hid_height);
+            AspControls.registerId("hid_va_direccion_ip_usuario", AspControls.ControlName.inicio_sesion_hid_va_direccion_ip_usuario);
+            AspControls.registerId("iframe_restorePassword", AspControls.ControlName.inicio_sesion_iframe_restorePassword);
+            AspControls.registerId("hid_resultado", AspControls.ControlName.inicio_sesion_hid_resultado);
+            AspControls.registerId("txt_usuario", AspControls.ControlName.inicio_sesion_txt_usuario);
+            AspControls.registerId("txt_password", AspControls.ControlName.inicio_sesion_txt_password);
+            AspControls.registerId("hid_nb_empresa", AspControls.ControlName.inicio_sesion_hid_nb_empresa);
+            AspControls.registerId("hid_co_empresa", AspControls.ControlName.inicio_sesion_hid_co_empresa);
+            AspControls.registerId("btn_iniciar", AspControls.ControlName.inicio_sesion_btn_iniciar);
+            AspControls.registerId("btn_submit", AspControls.ControlName.inicio_sesion_btn_submit);
+
+            var url_obtener_ip = "https://ip.aspsoluciones.com/ServiciosIP.asmx/IP";
+            var cliniwebUrl = "https://www.cliniweb.com";
+
+            var open_eye_src = "https://cdn.aspstatic.com/Content/images/open_eye.svg";
+            var closed_eye_src = "https://cdn.aspstatic.com/Content/images/closed_eye.svg";
+
+            var co_empresa_qs = -1;
+        </script>
+    </head>
+    <body id="body_inicio">
+        <form name="Form1" method="post" action="./inicio_sesion.aspx?ReturnUrl=%2f" id="Form1">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="+jFc4Thl6qkf/+WhhcXfjaaRsPThE7Rgop3PpeuQsEt9D+yi6LwGFPXl+F/9JesaLYqS87JN1RJMuPVrwtjb6VeQ5SmMK6/rDM0fiTg/lRR+e0dcQoreq1hzJ8Y7k250YIYvSgsvbvDgh7+237Rn8LNrYwHLbdK35XEi21SSO/GYQQd/qD77QJzDUZHWsqmFtqCvSuNsh/AQH9WRvZPkWp/Wr4nG7HJsTnTphNvZuVZoWlqsQ44xOLR2TkSzPSoqIb9r4/24T2ZlxMrw70d8EtSINM4NebB3dgnDT2SgAuR0LsIR3s+WxTYxH8AMagaz">
+
+<script type="text/javascript">
+<!--
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</script>
+
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8A217C90">
+            <div></div>
+            <div class="logo-cliniweb">
+                <div class="brand-logo">
+                    <img src="https://cdn.aspstatic.com/Content/images/Inicio/cw-logo.svg" alt="Cliniweb el Directorio Médico de Panamá" style="width:143px;">
+                    <div class="hide-on-small-only powered-by">
+                        <span class="filete">|</span>
+                        <span class="grey-text text-darken-1 potenciado">
+                            Transformamos
+                            <br>
+                            consultorios médicos
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col offset-l3 l6 offset-m4 m7 s12 login-panel">
+                        <div class="progress">
+                            <div class="indeterminate"></div>
+                        </div>
+                        <h5>Ingrese a su cuenta</h5>
+                        <div class="row row-user">
+                            <div class="input-field col s12">
+                                <input name="txt_usuario" type="text" id="txt_usuario">
+                                <label for="txt_usuario" class="active">Su correo electrónico</label>
+                            </div>
+                            <div class="col s12">
+                                <a id="btn_siguiente" class="btn orange" disabled="disabled">
+                                    <span>Siguiente</span>
+                                    <i class="material-icons">arrow_forward</i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row row-pwd">
+                            <div class="col s12">
+                                <div id="usuario_content"></div>
+                            </div>
+                            <div class="input-field col s12">
+                                <input name="txt_password" type="password" id="txt_password" tabindex="2">
+                                <label for="txt_password">Contraseña</label>
+                                <a id="show_password" style="background: url(&quot;https://cdn.aspstatic.com/Content/images/closed_eye.svg&quot;);"></a>
+                            </div>
+                            <div class="col s12">
+                                <a onclick="onForgotPasswordClick()" class="forgotPasswordLink" tabindex="3">¿Olvidó su contraseña?</a>
+                            </div>                            
+                            <div id="company_container" class="input-field col s12">
+                                <select id="select2_empresa" class="new-layout select2-hidden-accessible" tabindex="-1" aria-hidden="true"></select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-select2_empresa-container"><span class="select2-selection__rendered" id="select2-select2_empresa-container"></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                <label class="active">Consultorio</label>
+                            </div>                            
+                            <div class="col s12">
+                                <input name="btn_iniciar" type="button" id="btn_iniciar" value="Ingresar" class="btn btn-login orange" disabled="disabled">                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <input type="hidden" name="hid_width" id="hid_width" value="1280">
+		    
+            <input type="hidden" name="hid_height" id="hid_height" value="720">
+            <input name="hid_va_direccion_ip_usuario" type="hidden" id="hid_va_direccion_ip_usuario" value="190.33.28.178">
+            <input type="hidden" name="hid_resultado" id="hid_resultado">
+            <input type="hidden" name="hid_co_empresa" id="hid_co_empresa">
+            <input type="hidden" name="hid_nb_empresa" id="hid_nb_empresa">
+            
+            <div id="iframe_restorePassword" class="restorePassword iframe-modal modal modal-asp modal-fixed-footer" dismissible="true" style="z-index: 1003;">
+	<div class="modal-header">
+		<span class="title-modal">Restaurar Contraseña</span><a class="modal-close" data-dismiss="close" aria-label="Close" onclick="onloadIframeModalClose();"><i class="material-icons">close</i></a>
+	</div><div class="modal-content"><script>function resizeIframeiframe_restorePassword(obj) {obj.style.height = (obj.contentWindow.document.body.scrollHeight + 60) + 'px';}</script><iframe scrolling="yes" onload="onloadIframeModal(this);" src=""></iframe></div>
+</div>
+            <input name="btn_submit" type="submit" id="btn_submit" class="hidden">
+        </form>
+        
+        
+
+<div id="alertModal" class="modal modal-asp modal-fixed-footer modal-alert" style="z-index: 1005;">
+    <div class="modal-header">
+        <a class="modal-close" data-dismiss="modal" aria-label="Close" onclick="closeAlertModal();"><i class="material-icons">close</i></a>
+    </div>
+    <div class="modal-content">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <i class="material-icons"></i>
+                <label></label>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a class="modal-close modal-save waves-effect waves-light btn-flat"></a>
+    </div>
+</div>
+
+<div id="confirmModal" class="modal modal-asp modal-fixed-footer modal-alert" style="z-index: 1007;">
+    <div class="modal-header">
+        <a class="modal-close" data-dismiss="modal" aria-label="Close" onclick="closeAlertModal();"><i class="material-icons">close</i></a>
+    </div>
+    <div class="modal-content">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <label></label>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a class="btn-yes modal-close modal-save waves-effect waves-light btn-flat">Si</a>
+        <a class="btn-no modal-close modal-save waves-effect waves-light btn-flat">No</a>
+    </div>
+</div>
+    
+<div class="hiddendiv common"></div></body></html>

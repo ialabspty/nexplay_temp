@@ -1,0 +1,13 @@
+[2026-04-06T14:21:03.038Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T14:21:15.421Z] agenda:state {"hasScheduler":true,"hasViewSelect":true,"hasDoctorName":true}
+[2026-04-06T14:21:15.435Z] inspect:agenda_ready {"currentViewValue":"0","activeDay":true,"activeWeek":false,"loadingVisible":true,"overlayVisible":true}
+[2026-04-06T14:21:15.435Z] overlays_only:start
+[2026-04-06T14:24:45.194Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T14:24:57.299Z] agenda:state {"hasScheduler":true,"hasViewSelect":true,"hasDoctorName":true}
+[2026-04-06T14:24:57.312Z] inspect:agenda_ready {"currentViewValue":"0","activeDay":true,"activeWeek":false,"loadingVisible":true,"overlayVisible":true}
+[2026-04-06T14:24:57.313Z] overlays_hide_only:start
+[2026-04-06T14:24:57.328Z] overlays_hide_only:end
+[2026-04-06T14:24:57.343Z] inspect:after_only_hide_overlays {"currentViewValue":"0","activeDay":true,"activeWeek":false,"loadingVisible":true,"overlayVisible":true}
+[2026-04-06T14:24:57.343Z] loaders_only:start
+[2026-04-06T14:24:57.351Z] loaders_only:end
+[2026-04-06T14:24:57.367Z] inspect:after_only_hide_loaders {"currentViewValue":"0","activeDay":true,"activeWeek":false,"loadingVisible":false,"overlayVisible":true}

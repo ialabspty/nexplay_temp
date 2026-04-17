@@ -1,0 +1,87 @@
+name: Deploy to GoDaddy
+
+on:
+  push:
+    branches:
+      - production
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'next.config.ts'
+      - 'postcss.config.mjs'
+      - 'eslint.config.mjs'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_API_BASE_URL: ${{ secrets.NEXT_PUBLIC_API_BASE_URL }}
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v2
+
+    - name: Install Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '20'
+    
+    - name: Install frontend dependencies
+      run: npm install
+
+    - name: Build frontend
+      run: npm run build
+    - name: Inspect export output
+      run: |
+        echo "=== OUT ROOT ==="
+        ls -la out
+        echo "=== PANEL ==="
+        ls -la out/panel || true
+        echo "=== RESERVATIONS ==="
+        ls -la out/reservations || true
+
+
+    - name: Install backend dependencies & generate Prisma client
+      run: |
+        cd backend
+        npm install
+        npx prisma generate
+
+    - name: Build backend and prune dev dependencies
+      run: |
+        cd backend
+        npm run build
+        npm prune --omit=dev
+
+    - name: Deploy to GoDaddy via FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        port: ${{ secrets.FTP_PORT }}
+        local-dir: ./out/
+        server-dir: ${{ secrets.REMOTE_DIR }}
+        dangerous-clean-slate: true
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/.github*
+          **/.github*/**
+          backend
+          backend/**
+          .openclaw
+          .openclaw/**
+          src
+          src/**
+          public
+          public/**
+      env:
+        FTP_PASV: true
+
+# Comentario para forzar la activación del workflow.

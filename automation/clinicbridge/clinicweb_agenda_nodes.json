@@ -1,0 +1,4802 @@
+[
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal modal-asp modal-fixed-footer system-message-modal error",
+    "text": "Loading ... Título popup de advertencia Notificar a soporte Mensaje a soporte Se produjo el error interno del sistema Por favor revisar el caso con ur"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-content",
+    "text": "Loading ... Título popup de advertencia Notificar a soporte Mensaje a soporte Se produjo el error interno del sistema Por favor revisar el caso con ur"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-container",
+    "text": "Loading ..."
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-icon",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "preloader-wrapper big active",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "spinner-layer spinner-blue-only",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper left",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "gap-patch",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper right",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-message",
+    "text": "Loading ..."
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "message-container",
+    "text": "Título popup de advertencia Notificar a soporte"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "title-container",
+    "text": "Título popup de advertencia"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Título popup de advertencia"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "description-container",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "sopport-link",
+    "text": "Notificar a soporte"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "support-message-container",
+    "text": "Mensaje a soporte Se produjo el error interno del sistema Por favor revisar el caso con urgencia. Agregar información adicional"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "back",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "support-subtitle",
+    "text": "Mensaje a soporte"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "description-container",
+    "text": "Se produjo el error interno del sistema Por favor revisar el caso con urgencia."
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "message-code",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "sopport-add-more-info-link",
+    "text": "Agregar información adicional"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Agregar información adicional"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "add-more-info-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-footer",
+    "text": "Cerrar Listo Cancelar Enviar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "message-btn-container btn-container",
+    "text": "Cerrar Listo"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "waves-effect waves-light btn-flat close",
+    "text": "Cerrar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "waves-effect waves-light btn-flat accept",
+    "text": "Listo"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "support-btn-container btn-container",
+    "text": "Cancelar Enviar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "waves-effect waves-light btn-flat close",
+    "text": "Cancelar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "waves-effect waves-light btn-flat accept",
+    "text": "Enviar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal modal-asp modal-fixed-footer impresion-transaction-modal",
+    "text": "Entregar factura close Indica como quieres entregar al cliente. Enviar por correo Correo del cliente Agregar otro correo Upsss, hubo un problema con e"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-header",
+    "text": "Entregar factura close"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "modal-close",
+    "text": "close"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-content",
+    "text": "Indica como quieres entregar al cliente. Enviar por correo Correo del cliente Agregar otro correo Upsss, hubo un problema con el envío Intente de nuev"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "send-by-email-container",
+    "text": "Indica como quieres entregar al cliente. Enviar por correo Correo del cliente Agregar otro correo Upsss, hubo un problema con el envío Intente de nuev"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-subtitle",
+    "text": "Indica como quieres entregar al cliente."
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "preloader-wrapper big active",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "spinner-layer spinner-blue-only",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper left",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "gap-patch",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper right",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation-finished",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field checkbox-container",
+    "text": "Enviar por correo"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "email-address-container",
+    "text": "Correo del cliente Agregar otro correo"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": "Correo del cliente"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "other-emails-container",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "add-new-email-btn",
+    "text": "Agregar otro correo"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Agregar otro correo"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "email-address-container read-only-list",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "error-container",
+    "text": "Upsss, hubo un problema con el envío Intente de nuevo y en caso que el error persista puede contactarnos a soporte@cliniweb.com Volver a intentar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "error-message",
+    "text": "Upsss, hubo un problema con el envío"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Upsss, hubo un problema con el envío"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": "Intente de nuevo y en caso que el error persista puede contactarnos a soporte@cliniweb.com"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": "Volver a intentar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "retry-email",
+    "text": "Volver a intentar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "print-transaction-container",
+    "text": "Imprimir Carta (1 por hoja)Carta (2 por hoja - original y copia)Punto de venta (ancho 8cm)Impresion fiscalFormato Preimpreso Carta (1 por hoja) Carta "
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "preloader-wrapper big active",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "spinner-layer spinner-blue-only",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper left",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "gap-patch",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper right",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation-finished",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field checkbox-container",
+    "text": "Imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "other-fields-container",
+    "text": "Carta (1 por hoja)Carta (2 por hoja - original y copia)Punto de venta (ancho 8cm)Impresion fiscalFormato Preimpreso Carta (1 por hoja) Carta (2 por ho"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": "Carta (1 por hoja)Carta (2 por hoja - original y copia)Punto de venta (ancho 8cm)Impresion fiscalFormato Preimpreso Carta (1 por hoja) Carta (2 por ho"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper",
+    "text": "Carta (1 por hoja)Carta (2 por hoja - original y copia)Punto de venta (ancho 8cm)Impresion fiscalFormato Preimpreso Carta (1 por hoja) Carta (2 por ho"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Carta (1 por hoja)"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Carta (2 por hoja - original y copia)"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Punto de venta (ancho 8cm)"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Impresion fiscal"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Formato Preimpreso"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "hide-select",
+    "text": "Carta (1 por hoja) Carta (2 por hoja - original y copia) Punto de venta (ancho 8cm) Impresion fiscal Formato Preimpreso"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "read-only-list",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "print-results-container",
+    "text": "Encuentre el PDF para imprimir en la barra inferior del navegador o presione Ctrl + J para abrir las descargas. Encuentre la impresion personalizada g"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "letter-print-container",
+    "text": "Encuentre el PDF para imprimir en la barra inferior del navegador o presione Ctrl + J para abrir las descargas."
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "custom-print-container",
+    "text": "Encuentre la impresion personalizada generada en la nueva ventana/pestaña abierta."
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "fiscal-print-container",
+    "text": "Si la impresión no comienza automáticamente, copie y pegue el código en el formulario de impresión manual. AUWf0E3U8Hw0oLhuWQk/XA== Realizar una impre"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": "Si la impresión no comienza automáticamente, copie y pegue el código en el formulario de impresión manual."
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Si la impresión no comienza automáticamente, copie y pegue el código en el"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "formulario de impresión manual."
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "fiscal-code-container",
+    "text": "AUWf0E3U8Hw0oLhuWQk/XA=="
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "fiscal-code",
+    "text": "AUWf0E3U8Hw0oLhuWQk/XA=="
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "not-fiscal-print-link",
+    "text": "Realizar una impresión no fiscal"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "Realizar una impresión no fiscal"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "error-container",
+    "text": "Upsss, hubo un problema con la impresión Intente de nuevo y en caso que el error persista puede contactarnos a soporte@cliniweb.com Volver a intentar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "error-message",
+    "text": "Upsss, hubo un problema con la impresión"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Upsss, hubo un problema con la impresión"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": "Intente de nuevo y en caso que el error persista puede contactarnos a soporte@cliniweb.com"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": "Volver a intentar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "retry-print",
+    "text": "Volver a intentar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-footer",
+    "text": "Listo"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "waves-effect waves-light btn-flat accept",
+    "text": "Listo"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "email-item-template",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "remove-email-address",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal modal-asp modal-fixed-footer popup-envio-ordenes-medicas-modal animated",
+    "text": "Enviar o imprimir solicitud Listo Enviar o imprimir solicitud Enviar al paciente La información se enviará de forma encriptada y segura. Conocer más *"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-header",
+    "text": "Enviar o imprimir solicitud Listo"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "modal-close",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Enviar o imprimir solicitud"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "waves-effect waves-light btn-flat send-btn",
+    "text": "Listo"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-content",
+    "text": "Enviar o imprimir solicitud Enviar al paciente La información se enviará de forma encriptada y segura. Conocer más *El correo es requerido. Por Whatsa"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "preloader-wrapper big active",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "spinner-layer spinner-blue-only",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper left",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "gap-patch",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper right",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "content",
+    "text": "Enviar o imprimir solicitud Enviar al paciente La información se enviará de forma encriptada y segura. Conocer más *El correo es requerido. Por Whatsa"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "title-mobile",
+    "text": "Enviar o imprimir solicitud"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "item-check send-to-patient-container spinner",
+    "text": "Enviar al paciente La información se enviará de forma encriptada y segura. Conocer más *El correo es requerido. Por Whatsapp* Por email* IMPORTANTE: P"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation-finished",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field checkbox-container",
+    "text": "Enviar al paciente"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "details-wrapper",
+    "text": "La información se enviará de forma encriptada y segura. Conocer más *El correo es requerido. Por Whatsapp* Por email* IMPORTANTE: Por seguridad, el pa"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "security-text",
+    "text": "La información se enviará de forma encriptada y segura. Conocer más"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "custom-icons custom-icon-PHR-Lock",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "Conocer más"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "required-text",
+    "text": "*El correo es requerido."
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "whatsapp-details input-list-container",
+    "text": "Por Whatsapp*"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-container",
+    "text": "Por Whatsapp*"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field tel",
+    "text": "Por Whatsapp*"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Por Whatsapp*"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "required-simbol",
+    "text": "*"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "add-new-item-btn",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "email-details input-list-container",
+    "text": "Por email*"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-container",
+    "text": "Por email*"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": "Por email*"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Por email*"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "required-simbol",
+    "text": "*"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "add-new-item-btn",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "security-question-container",
+    "text": "IMPORTANTE: Por seguridad, el paciente deberá ingresar su fecha de nacimiento para ver la orden. Asegúrese que la fecha de nacimiento del paciente sea"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "area-title",
+    "text": "IMPORTANTE:"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "IMPORTANTE:"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "date-view-container",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "patient-date-container form-field",
+    "text": "día12345678910111213141516171819202122232425262728293031mesenerofebreromarzoabrilmayojuniojulioagostoseptiembreoctubrenoviembrediciembreaño20262025202"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "combodate",
+    "text": "día12345678910111213141516171819202122232425262728293031mesenerofebreromarzoabrilmayojuniojulioagostoseptiembreoctubrenoviembrediciembreaño20262025202"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper-date day",
+    "text": "día12345678910111213141516171819202122232425262728293031"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper-date month",
+    "text": "mesenerofebreromarzoabrilmayojuniojulioagostoseptiembreoctubrenoviembrediciembre"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper-date year",
+    "text": "año202620252024202320222021202020192018201720162015201420132012201120102009200820072006200520042003200220012000199919981997199619951994199319921991199"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "new-date-warning",
+    "text": "Esta nueva fecha de nacimiento reemplazará la anterior"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Esta nueva fecha de nacimiento reemplazará la anterior"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "item-check send-by-providers spinner",
+    "text": "Enviar al laboratorio La información se enviará de forma encriptada y segura. Conocer más"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation-finished",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field checkbox-container",
+    "text": "Enviar al laboratorio"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "providers-details-wrapper",
+    "text": "La información se enviará de forma encriptada y segura. Conocer más"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "security-text",
+    "text": "La información se enviará de forma encriptada y segura. Conocer más"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "custom-icons custom-icon-PHR-Lock",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "Conocer más"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "provider-details input-list-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "hide-select",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "read-only-list",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "item-check om-print-container spinner",
+    "text": "Imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation-finished",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field checkbox-container",
+    "text": "Imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "print-details-wrapper",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "print-details input-list-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "hide-select",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "read-only-list",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "menu-configuracion-orden-medica",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "preview-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "empty-state",
+    "text": "No hay información para enviar o imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": "No hay información para enviar o imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-item-template",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "remove-action",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal modal-asp modal-fixed-footer popup-envio-control-prenatal-modal animated",
+    "text": "Enviar o imprimir solicitud Listo Enviar o imprimir solicitud La información se enviará de forma encriptada y segura. Conocer más *El correo es requer"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-header",
+    "text": "Enviar o imprimir solicitud Listo"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "modal-close",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Enviar o imprimir solicitud"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "waves-effect waves-light btn-flat send-btn",
+    "text": "Listo"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-content",
+    "text": "Enviar o imprimir solicitud La información se enviará de forma encriptada y segura. Conocer más *El correo es requerido. Por Whatsapp* Por email* IMPO"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "preloader-wrapper big active",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "spinner-layer spinner-blue-only",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper left",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "gap-patch",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper right",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "content",
+    "text": "Enviar o imprimir solicitud La información se enviará de forma encriptada y segura. Conocer más *El correo es requerido. Por Whatsapp* Por email* IMPO"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "title-mobile",
+    "text": "Enviar o imprimir solicitud"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "item-check send-to-patient-container spinner",
+    "text": "La información se enviará de forma encriptada y segura. Conocer más *El correo es requerido. Por Whatsapp* Por email* IMPORTANTE: Por seguridad, el pa"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation-finished",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "details-wrapper",
+    "text": "La información se enviará de forma encriptada y segura. Conocer más *El correo es requerido. Por Whatsapp* Por email* IMPORTANTE: Por seguridad, el pa"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "security-text",
+    "text": "La información se enviará de forma encriptada y segura. Conocer más"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "custom-icons custom-icon-PHR-Lock",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "Conocer más"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "required-text",
+    "text": "*El correo es requerido."
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "whatsapp-details input-list-container",
+    "text": "Por Whatsapp*"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-container",
+    "text": "Por Whatsapp*"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field tel",
+    "text": "Por Whatsapp*"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Por Whatsapp*"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "required-simbol",
+    "text": "*"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "add-new-item-btn",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "email-details input-list-container",
+    "text": "Por email*"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-container",
+    "text": "Por email*"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": "Por email*"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Por email*"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "required-simbol",
+    "text": "*"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "add-new-item-btn",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "security-question-container",
+    "text": "IMPORTANTE: Por seguridad, el paciente deberá ingresar su fecha de nacimiento para ver la orden. Asegúrese que la fecha de nacimiento del paciente sea"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "area-title",
+    "text": "IMPORTANTE:"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "IMPORTANTE:"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "date-view-container",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "patient-date-container form-field",
+    "text": "día12345678910111213141516171819202122232425262728293031mesenerofebreromarzoabrilmayojuniojulioagostoseptiembreoctubrenoviembrediciembreaño20262025202"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "combodate",
+    "text": "día12345678910111213141516171819202122232425262728293031mesenerofebreromarzoabrilmayojuniojulioagostoseptiembreoctubrenoviembrediciembreaño20262025202"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper-date day",
+    "text": "día12345678910111213141516171819202122232425262728293031"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper-date month",
+    "text": "mesenerofebreromarzoabrilmayojuniojulioagostoseptiembreoctubrenoviembrediciembre"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper-date year",
+    "text": "año202620252024202320222021202020192018201720162015201420132012201120102009200820072006200520042003200220012000199919981997199619951994199319921991199"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "new-date-warning",
+    "text": "Esta nueva fecha de nacimiento reemplazará la anterior"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Esta nueva fecha de nacimiento reemplazará la anterior"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "item-check send-by-providers spinner",
+    "text": "Enviar al laboratorio La información se enviará de forma encriptada y segura. Conocer más"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation-finished",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field checkbox-container",
+    "text": "Enviar al laboratorio"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "providers-details-wrapper",
+    "text": "La información se enviará de forma encriptada y segura. Conocer más"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "security-text",
+    "text": "La información se enviará de forma encriptada y segura. Conocer más"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "custom-icons custom-icon-PHR-Lock",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "Conocer más"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "provider-details input-list-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "hide-select",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "read-only-list",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "item-check om-print-container spinner",
+    "text": "Imprimir Eliminado"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation-finished",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field checkbox-container",
+    "text": "Imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "print-details-wrapper",
+    "text": "Eliminado"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "print-details input-list-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "hide-select",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "read-only-list",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "previous-pregnancy-status",
+    "text": "Eliminado"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "previous-pregnancy-status-icon",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "previous-pregnancy-status-label",
+    "text": "Eliminado"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "menu-configuracion-orden-medica",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "preview-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "empty-state",
+    "text": "No hay información para enviar o imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": "No hay información para enviar o imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-item-template",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "remove-action",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal modal-asp modal-fixed-footer popup-envio-documento-impresion-modal animated",
+    "text": "Enviar o imprimir solicitud Generar Enviar o imprimir solicitud Imprimir No hay información para enviar o imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-header",
+    "text": "Enviar o imprimir solicitud Generar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "modal-close",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Enviar o imprimir solicitud"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "waves-effect waves-light btn-flat send-btn",
+    "text": "Generar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-content",
+    "text": "Enviar o imprimir solicitud Imprimir No hay información para enviar o imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "preloader-wrapper big active",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "spinner-layer spinner-blue-only",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper left",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "gap-patch",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper right",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "content",
+    "text": "Enviar o imprimir solicitud Imprimir"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "title-mobile",
+    "text": "Enviar o imprimir solicitud"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "item-check send-to-patient-container spinner",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation-finished",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "item-check om-print-container spinner",
+    "text": "Imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation-finished",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field checkbox-container",
+    "text": "Imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "print-details-wrapper",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "print-details input-list-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "hide-select",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "read-only-list",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "menu-configuracion-orden-medica",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "preview-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "empty-state",
+    "text": "No hay información para enviar o imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": "No hay información para enviar o imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-item-template",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "remove-action",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": "_ctl0_ordenesMedicasPorEnviar_popup_ordenes_medicas_por_enviar",
+    "className": "modal modal-asp modal-fixed-footer popup-ordenes-medicas-por-enviar init",
+    "text": "Historia clínica guardada exitosamente ¿Desea enviar o imprimir estas órdenes? Ahora Ud. puede enviar de forma segura sus órdenes y recetas a sus paci"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-init",
+    "text": "Historia clínica guardada exitosamente"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "btn-close",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "success-checkmark",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "check-icon",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "icon-line line-tip",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "icon-line line-long",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "icon-circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "icon-fix",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "success-text",
+    "text": "Historia clínica guardada exitosamente"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "progress-bar-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "progress-bar",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-header",
+    "text": "¿Desea enviar o imprimir estas órdenes?"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "title-header",
+    "text": "¿Desea enviar o imprimir estas órdenes?"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "¿Desea enviar o imprimir estas órdenes?"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "btn-close",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-content",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "medical-order-wrapper",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-footer",
+    "text": "Ahora Ud. puede enviar de forma segura sus órdenes y recetas a sus pacientes y/o proveedores. Ver beneficios"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "security-info",
+    "text": "Ahora Ud. puede enviar de forma segura sus órdenes y recetas a sus pacientes y/o proveedores. Ver beneficios"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Ahora Ud. puede enviar de forma segura sus órdenes y recetas a sus pacientes y/o proveedores."
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "know-more-link",
+    "text": "Ver beneficios"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Ver beneficios"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "medical-order-item-template",
+    "text": "Enviar o imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": "__medical_order_view_id",
+    "className": "medical-order-view-item",
+    "text": "Enviar o imprimir"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "title",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "description",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "btn-send-medical-order",
+    "text": "Enviar o imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": "popup_envio-curva_crecimiento",
+    "className": "modal modal-asp modal-fixed-footer popup-envio-curva-crecimiento animated",
+    "text": "Curvas de crecimiento Enviar Curvas de crecimiento Enviar al paciente La información se enviará de forma encriptada y segura. Conocer más *El correo e"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-header",
+    "text": "Curvas de crecimiento Enviar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "modal-close",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Curvas de crecimiento"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "waves-effect waves-light btn-flat send-btn",
+    "text": "Enviar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-content",
+    "text": "Curvas de crecimiento Enviar al paciente La información se enviará de forma encriptada y segura. Conocer más *El correo es requerido. Por Whatsapp* Po"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "preloader-wrapper big active",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "spinner-layer spinner-blue-only",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper left",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "gap-patch",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle-clipper right",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "circle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "content",
+    "text": "Curvas de crecimiento Enviar al paciente La información se enviará de forma encriptada y segura. Conocer más *El correo es requerido. Por Whatsapp* Po"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "title-mobile",
+    "text": "Curvas de crecimiento"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "item-check send-to-patient-container spinner",
+    "text": "Enviar al paciente La información se enviará de forma encriptada y segura. Conocer más *El correo es requerido. Por Whatsapp* Por email* IMPORTANTE: P"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation-finished",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field checkbox-container",
+    "text": "Enviar al paciente"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "details-wrapper",
+    "text": "La información se enviará de forma encriptada y segura. Conocer más *El correo es requerido. Por Whatsapp* Por email* IMPORTANTE: Por seguridad, el pa"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "security-text",
+    "text": "La información se enviará de forma encriptada y segura. Conocer más"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "custom-icons custom-icon-PHR-Lock",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "Conocer más"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "required-text",
+    "text": "*El correo es requerido."
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "whatsapp-details input-list-container",
+    "text": "Por Whatsapp*"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-container",
+    "text": "Por Whatsapp*"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field tel",
+    "text": "Por Whatsapp*"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Por Whatsapp*"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "add-new-item-btn",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "email-details input-list-container",
+    "text": "Por email*"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-container",
+    "text": "Por email*"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": "Por email*"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Por email*"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "add-new-item-btn",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "security-question-container",
+    "text": "IMPORTANTE: Por seguridad, el paciente deberá ingresar su fecha de nacimiento para ver la orden. Asegúrese que la fecha de nacimiento del paciente sea"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "area-title",
+    "text": "IMPORTANTE:"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "IMPORTANTE:"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "date-view-container",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "patient-date-container form-field",
+    "text": "día12345678910111213141516171819202122232425262728293031mesenerofebreromarzoabrilmayojuniojulioagostoseptiembreoctubrenoviembrediciembreaño20262025202"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "combodate",
+    "text": "día12345678910111213141516171819202122232425262728293031mesenerofebreromarzoabrilmayojuniojulioagostoseptiembreoctubrenoviembrediciembreaño20262025202"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper-date day",
+    "text": "día12345678910111213141516171819202122232425262728293031"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper-date month",
+    "text": "mesenerofebreromarzoabrilmayojuniojulioagostoseptiembreoctubrenoviembrediciembre"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper-date year",
+    "text": "año202620252024202320222021202020192018201720162015201420132012201120102009200820072006200520042003200220012000199919981997199619951994199319921991199"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "new-date-warning",
+    "text": "Esta nueva fecha de nacimiento reemplazará la anterior"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Esta nueva fecha de nacimiento reemplazará la anterior"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "item-check print-container spinner",
+    "text": "Imprimir Carta (1 por hoja)Formato Personalizado Carta (1 por hoja) Formato Personalizado"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-animation-finished",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field checkbox-container",
+    "text": "Imprimir"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "print-details-wrapper",
+    "text": "Carta (1 por hoja)Formato Personalizado Carta (1 por hoja) Formato Personalizado"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "print-details input-list-container",
+    "text": "Carta (1 por hoja)Formato Personalizado Carta (1 por hoja) Formato Personalizado"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-container",
+    "text": "Carta (1 por hoja)Formato Personalizado Carta (1 por hoja) Formato Personalizado"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": "Carta (1 por hoja)Formato Personalizado Carta (1 por hoja) Formato Personalizado"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper",
+    "text": "Carta (1 por hoja)Formato Personalizado Carta (1 por hoja) Formato Personalizado"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Carta (1 por hoja)"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Formato Personalizado"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "hide-select",
+    "text": "Carta (1 por hoja) Formato Personalizado"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "read-only-list",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "preview-container",
+    "text": "Datos para niño OMSDatos para niño CDC Datos para niño OMS Datos para niño CDC Gráfico Tabla $(document).ready(function () { var wc_curva_crecimiento_"
+  },
+  {
+    "tag": "DIV",
+    "id": "_ctl0_envioCurvaCrecimiento_curva_crecimiento_wc_curva_crecimiento",
+    "className": "wc-curva-crecimiento",
+    "text": "Datos para niño OMSDatos para niño CDC Datos para niño OMS Datos para niño CDC Gráfico Tabla"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "measurement-tab-content-template",
+    "text": "Datos para niño OMSDatos para niño CDC Datos para niño OMS Datos para niño CDC Gráfico Tabla"
+  },
+  {
+    "tag": "DIV",
+    "id": "__measurement_tab_id",
+    "className": "col s12",
+    "text": "Datos para niño OMSDatos para niño CDC Datos para niño OMS Datos para niño CDC Gráfico Tabla"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "measurement-options-container",
+    "text": "Datos para niño OMSDatos para niño CDC Datos para niño OMS Datos para niño CDC"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "range-container form-field",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "hide-select",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "standard-type-container form-field",
+    "text": "Datos para niño OMSDatos para niño CDC Datos para niño OMS Datos para niño CDC"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper",
+    "text": "Datos para niño OMSDatos para niño CDC Datos para niño OMS Datos para niño CDC"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Datos para niño OMS"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Datos para niño CDC"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "hide-select",
+    "text": "Datos para niño OMS Datos para niño CDC"
+  },
+  {
+    "tag": "DIV",
+    "id": "chart_tab__measurement_tab_id",
+    "className": "col s12 chart-tab-body tab-body active",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": "table_tab__measurement_tab_id",
+    "className": "col s12 table-tab-body tab-body",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "active",
+    "text": "Gráfico"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "Tabla"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-item-template",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "remove-action",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": "_ctl0_edicionEdicionConceptos_popup_edicion_conceptos",
+    "className": "modal modal-asp modal-fixed-footer popup-edicion-conceptos-modal skeleton-container",
+    "text": "Grabar FECHA CONSULTA FUM EDAD GESTACIONAL __txt_input_label"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-header",
+    "text": "Grabar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "btn-cancel",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "title",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "btn-confirm btn btn-flat waves-effect waves-light",
+    "text": "Grabar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-content",
+    "text": "FECHA CONSULTA FUM EDAD GESTACIONAL"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "content-wrapper skeleton-container",
+    "text": "FECHA CONSULTA FUM EDAD GESTACIONAL"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "header-content",
+    "text": "FECHA CONSULTA FUM EDAD GESTACIONAL"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "header-wrapper",
+    "text": "FECHA CONSULTA FUM EDAD GESTACIONAL"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "clinic-contact-date",
+    "text": "FECHA CONSULTA"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "date-wrapper",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "divider",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "fum-content",
+    "text": "FUM"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "divider",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "gestational-age-content",
+    "text": "EDAD GESTACIONAL"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "divider",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "area-validation",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "concepts-list",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-component",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-row",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "divider",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-row",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "input-item-template",
+    "text": "__txt_input_label"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "form-field",
+    "text": "__txt_input_label"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "save-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": "_ctl0_popup_lista_conceptos_popup_lista_conceptos",
+    "className": "modal modal-asp modal-fixed-footer popup-lista-conceptos skeleton-container",
+    "text": "Cancelar Confirmar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-header",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-content",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-footer",
+    "text": "Cancelar Confirmar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "btn-cancel btn btn-flat waves-effect waves-light",
+    "text": "Cancelar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "btn-confirm btn btn-flat waves-effect waves-light",
+    "text": "Confirmar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select2-concepts-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "save-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-component",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-row",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-row",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-row",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "skeleton-item",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": "hcCachePendingChangesModal",
+    "className": "modal modal-asp modal-fixed-footer hc-cache-pending-changes-modal",
+    "text": "Información sin grabar close Descartar Grabar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-header",
+    "text": "Información sin grabar close"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "headerTitle",
+    "text": "Información sin grabar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "modal-close closeModal",
+    "text": "close"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-content",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-footer",
+    "text": "Descartar Grabar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "waves-effect waves-light btn-flat close-btn",
+    "text": "Descartar"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "waves-effect waves-light btn-flat save-btn",
+    "text": "Grabar"
+  },
+  {
+    "tag": "DIV",
+    "id": "owd_ventana_container",
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultWindowLayer",
+    "text": "Browserhttp://www.miclinicaweb.com"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderContainer",
+    "text": "Browser"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderTopLeft",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderTopCenter",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderTopRight",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderMiddleLeft",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderMiddleCenter",
+    "text": "Browser"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderLogoContainer",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderTitle",
+    "text": "Browser"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultTitlePanel",
+    "text": "Browser"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderBuiltinButtonsContainer",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultButtonContainer",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultButtonContainer",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderMiddleRight",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderBottomLeft",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderBottomCenter",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultHeaderBottomRight",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultContentContainer",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultContentTopLeft",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultContentTopCenter",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultContentTopRight",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultContentMiddleLeft",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultContentMiddleCenter",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultContentMiddleRight",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultContentBottomLeft",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultContentBottomCenter",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultContentBottomRight",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultFooterContainer",
+    "text": "http://www.miclinicaweb.com"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultFooterTopLeft",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultFooterTopCenter",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultFooterTopRight",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultFooterMiddleLeft",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultFooterMiddleCenter",
+    "text": "http://www.miclinicaweb.com"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultFooterPanel",
+    "text": "http://www.miclinicaweb.com"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultFooterMiddleRight",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultFooterBottomLeft",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultFooterBottomCenter",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultFooterBottomRight",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultBottomLineContainer",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultBottomLineLeft",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultBottomLineCenter",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "defaultBottomLineRight",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizePanel",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizeHandle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizeHandle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizeHandle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizeHandle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizeHandle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizeHandle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizeHandle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizeHandle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizeHandle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizeHandle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizeHandle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultResizeHandle",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "defaultDragPanel",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": "wf0",
+    "className": "defaultFilterDivLayer",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "layout-body layout-click-event",
+    "text": "event_available perm_contact_calendar person_outline search L M M J V S D 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 2"
+  },
+  {
+    "tag": "DIV",
+    "id": "_ctl0_main_sidebar_layout_sidebar",
+    "className": "sidebar-container sidebar-layout",
+    "text": "event_available perm_contact_calendar person_outline"
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_sidebar_layout_main_button",
+    "className": "main-button",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "unread-messages",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_sidebar_layout_clinitime_link",
+    "className": "menu-tooltip",
+    "text": "event_available"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "tooltiptext",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_sidebar_layout_clinirecord_link",
+    "className": "menu-tooltip",
+    "text": "perm_contact_calendar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "tooltiptext",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_sidebar_layout_clinigold_link",
+    "className": "link-area",
+    "text": "attach_money"
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_sidebar_layout_clinipay_link",
+    "className": "menu-tooltip",
+    "text": "payment Pay"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "tooltiptext",
+    "text": "Pay"
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_sidebar_layout_public_profile_link",
+    "className": "menu-tooltip",
+    "text": "person_outline"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "tooltiptext",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_sidebar_layout_virtual_request_link",
+    "className": "menu-tooltip",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "tooltiptext",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "sidebar-counter",
+    "text": "0"
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_sidebar_layout_administracion_link",
+    "className": "menu-tooltip",
+    "text": "settings Configuración"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "tooltiptext",
+    "text": "Configuración"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "user-icon",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": "_ctl0_main_sidebar_layout_user_popover",
+    "className": "user-popover push popover__content",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "row valign-wrapper",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "col s2 m2",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "avatar-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": "_ctl0_main_sidebar_layout_user_avatar_avatar_container",
+    "className": "avatar-upload logged-user-avatar",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "au-avatar",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "loading-content",
+    "text": "..."
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "."
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "."
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "."
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "options-link",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "view link",
+    "text": "Ver"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "change link",
+    "text": "Cambiar imagen"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "delete link",
+    "text": "Eliminar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "col s10 m10 center-align",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "title",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "subtitle",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "user-close",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "popover__image",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_sidebar_layout_change_password_link",
+    "className": "collapsible-header user-link",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_sidebar_layout_share_link",
+    "className": "collapsible-header user-link",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_sidebar_layout_logout_link",
+    "className": "collapsible-header user-link",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "body-container",
+    "text": "search L M M J V S D 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 Calendarios Lugares chevron_right Hoy chevron_le"
+  },
+  {
+    "tag": "DIV",
+    "id": "_ctl0_main_navbar_header",
+    "className": "navbar-fixed",
+    "text": "search"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "nav-wrapper",
+    "text": "search"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "container",
+    "text": "search"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": "search"
+  },
+  {
+    "tag": "DIV",
+    "id": "logo_container",
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "brand-logo left logolayout",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": "title_container",
+    "className": "truncate",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": "backbtn",
+    "className": null,
+    "text": "arrow_back"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "backButton",
+    "text": "arrow_back"
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_regresarHyperLink",
+    "className": null,
+    "text": "arrow_back"
+  },
+  {
+    "tag": "DIV",
+    "id": "headerSearchPatientContainer",
+    "className": "headerSearchPatientContainer",
+    "text": "search"
+  },
+  {
+    "tag": "A",
+    "id": "headerSearchPatientBackBtn",
+    "className": "headerSearchPatientBackBtn",
+    "text": "arrow_back"
+  },
+  {
+    "tag": "A",
+    "id": "headerSearchPatientAddBtn",
+    "className": "headerSearchPatientBtn",
+    "text": "add Nuevo Paciente"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Nuevo Paciente"
+  },
+  {
+    "tag": "DIV",
+    "id": "headerSearchPatient",
+    "className": "headerSearchPatient",
+    "text": "search"
+  },
+  {
+    "tag": "DIV",
+    "id": "searchMobileContainer",
+    "className": "searchMobileContainer",
+    "text": "search"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "right-align",
+    "text": ""
+  },
+  {
+    "tag": "A",
+    "id": "msgMenuBtn",
+    "className": "msg_menu_btn",
+    "text": ""
+  },
+  {
+    "tag": "SPAN",
+    "id": "msg_unread_number",
+    "className": "msg_unread_number",
+    "text": "10"
+  },
+  {
+    "tag": "A",
+    "id": "_ctl0_main_btnDefault",
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "old-layout container",
+    "text": "L M M J V S D 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 Calendarios Lugares chevron_right Hoy chevron_left chev"
+  },
+  {
+    "tag": "DIV",
+    "id": "_ctl0_main_tbl_escritorio",
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": null,
+    "text": "L M M J V S D 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 Calendarios Lugares chevron_right Hoy chevron_left chev"
+  },
+  {
+    "tag": "DIV",
+    "id": "calendar_container_desktop",
+    "className": null,
+    "text": "L M M J V S D 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30"
+  },
+  {
+    "tag": "DIV",
+    "id": "inline_datepiker",
+    "className": "inline-datepicker inline",
+    "text": "L M M J V S D 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30"
+  },
+  {
+    "tag": "DIV",
+    "id": "modal-a2b3112a-8207-7343-0777-774f70a030ac",
+    "className": "datepicker-modal open",
+    "text": "L M M J V S D 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-content datepicker-container",
+    "text": "L M M J V S D 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "datepicker-date-display",
+    "text": "2026lun, abr 6"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "year-text",
+    "text": "2026"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": "date-text",
+    "text": "lun, abr 6"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "datepicker-calendar-container",
+    "text": "L M M J V S D 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "datepicker-calendar",
+    "text": "L M M J V S D 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30"
+  },
+  {
+    "tag": "DIV",
+    "id": "datepicker-title-dc",
+    "className": "datepicker-controls",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "selects-container",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper select-month",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "hide-select",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "select-wrapper select-year",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "hide-select",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "datepicker-table-wrapper",
+    "text": "L M M J V S D 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "L"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "M"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "M"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "J"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "V"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "S"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "D"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "is-empty",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "is-empty",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "1"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "2"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "3"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "4"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "5"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "is-today is-selected",
+    "text": "6"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "7"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "8"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "9"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "10"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "11"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "12"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "13"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "14"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "15"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "16"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "17"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "18"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "19"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "20"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "21"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "22"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "23"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "24"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "25"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "26"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "27"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "28"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "29"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "30"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "is-empty",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "is-empty",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": "is-empty",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "datepicker-footer",
+    "text": "CerrarSeleccionar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "confirmation-btns",
+    "text": "CerrarSeleccionar"
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "modal-overlay",
+    "text": ""
+  },
+  {
+    "tag": "DIV",
+    "id": null,
+    "className": "inline-datepicker",
+    "text": ""
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "<April 2026>"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "<"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "<"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "April 2026"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": ">"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": ">"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "M"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "T"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "W"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "T"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "F"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "S"
+  },
+  {
+    "tag": "TH",
+    "id": null,
+    "className": null,
+    "text": "S"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "30"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "30"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "31"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "31"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "1"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "1"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "2"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "2"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "3"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "3"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "4"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "4"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "5"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "5"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "6"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "6"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "7"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "7"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "8"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "8"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "9"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "9"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "10"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "10"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "11"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "11"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "12"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "12"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "13"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "13"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "14"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "14"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "15"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "15"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "16"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "16"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "17"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "17"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "18"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "18"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "19"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "19"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "20"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "20"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "21"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "21"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "22"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "22"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "23"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "23"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "24"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "24"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "25"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "25"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "26"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "26"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "27"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "27"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "28"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "28"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "29"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "29"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "30"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "30"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "1"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "1"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "2"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "2"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "3"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "3"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "4"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "4"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "5"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "5"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "6"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "6"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "7"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "7"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "8"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "8"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "9"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "9"
+  },
+  {
+    "tag": "TD",
+    "id": null,
+    "className": null,
+    "text": "10"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": null,
+    "text": "10"
+  },
+  {
+    "tag": "A",
+    "id": null,
+    "className": "collapsible-header waves-effect waves-light",
+    "text": "Calendarios Lugares chevron_right"
+  },
+  {
+    "tag": "DIV",
+    "id": "location_desktop_container",
+    "className": "collapsible-body",
+    "text": "Ver todos los lugaresThePanamaClinic-Ps 7ThePanamaClinic-Ps 8ThePanamaClinic-Ps 9ThePanamaClinic-Ps 10ThePanamaClinic-Ps 11ThePanamaClinic-Ps 12ThePan"
+  },
+  {
+    "tag": "DIV",
+    "id": "location_container",
+    "className": null,
+    "text": "Ver todos los lugaresThePanamaClinic-Ps 7ThePanamaClinic-Ps 8ThePanamaClinic-Ps 9ThePanamaClinic-Ps 10ThePanamaClinic-Ps 11ThePanamaClinic-Ps 12ThePan"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "Ver todos los lugares"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "ThePanamaClinic-Ps 7"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "ThePanamaClinic-Ps 8"
+  },
+  {
+    "tag": "SPAN",
+    "id": null,
+    "className": null,
+    "text": "ThePanamaClinic-Ps 9"
+  }
+]

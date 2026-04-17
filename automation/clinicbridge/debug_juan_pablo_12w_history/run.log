@@ -1,0 +1,191 @@
+[2026-04-06T12:43:33.595Z] runner:start {"profileCode":"juan-pablo-medina-clinicweb","weeks":12}
+[2026-04-06T12:43:34.239Z] profile:resolved {"doctorId":2,"accessProfileId":1,"user":"jpmedina@ufm.edu"}
+[2026-04-06T12:43:34.578Z] sync_session:created {"syncSessionId":2}
+[2026-04-06T12:43:34.999Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T12:43:48.489Z] login:done {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T13:19:56.632Z] runner:start {"profileCode":"juan-pablo-medina-clinicweb","weeks":12}
+[2026-04-06T13:19:57.257Z] profile:resolved {"doctorId":2,"accessProfileId":1,"user":"jpmedina@ufm.edu"}
+[2026-04-06T13:19:57.457Z] sync_session:created {"syncSessionId":3}
+[2026-04-06T13:19:58.018Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T13:20:10.135Z] login:done {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T14:06:27.998Z] runner:start {"profileCode":"juan-pablo-medina-clinicweb","weeks":12}
+[2026-04-06T14:06:28.603Z] profile:resolved {"doctorId":2,"accessProfileId":1,"user":"jpmedina@ufm.edu"}
+[2026-04-06T14:06:28.799Z] sync_session:created {"syncSessionId":4}
+[2026-04-06T14:06:32.820Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T14:06:42.617Z] login:navigation_detected {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T14:06:45.653Z] agenda_ready:state {"url":"https://professional.cliniweb.com/agenda","hasScheduler":true,"hasViewSelect":true,"hasDoctorName":true,"loadingVisible":true,"overlayVisible":true}
+[2026-04-06T14:41:25.967Z] runner:start {"profileCode":"juan-pablo-medina-clinicweb","weeks":12}
+[2026-04-06T14:41:26.567Z] profile:resolved {"doctorId":2,"accessProfileId":1,"user":"jpmedina@ufm.edu"}
+[2026-04-06T14:41:26.765Z] sync_session:created {"syncSessionId":5}
+[2026-04-06T14:41:27.050Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T14:41:36.548Z] login:navigation_detected {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T14:41:39.581Z] agenda_ready:state {"url":"https://professional.cliniweb.com/agenda","hasScheduler":true,"hasViewSelect":true,"hasDoctorName":true,"loadingVisible":true,"overlayVisible":true}
+[2026-04-06T14:41:41.456Z] ui_cleared:state {"loadingVisible":false,"overlayVisible":true}
+[2026-04-06T14:41:41.456Z] login:done {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T14:41:42.127Z] week_view:ensure:start
+[2026-04-06T14:41:44.753Z] week_view:state_after_method1 {"currentViewValue":"1","activeDay":false,"activeWeek":true,"schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_week","dateLabel":"6 Abr 2026 – 12 Abr 2026","scaleBar":"Lunes 06"}
+[2026-04-06T14:41:44.754Z] week_view:ensure:end {"activeAfter":1}
+[2026-04-06T14:41:46.843Z] iteration:start {"iteration":1}
+[2026-04-06T14:41:46.860Z] iteration:raw {"iteration":1,"dateLabel":"6 Abr 2026 – 12 Abr 2026","headerLabel":"Lunes 06","events":13}
+[2026-04-06T14:41:46.863Z] iteration:metrics {"iteration":1,"snapshotDate":"2026-04-06","availableSlots":18,"bookedSlots":70,"occupancyRate":388.89,"weekStatus":"valid_normal","blocks":13}
+[2026-04-06T14:41:48.053Z] iteration:persisted {"iteration":1,"snapshotDate":"2026-04-06"}
+[2026-04-06T14:41:48.071Z] nav:prev:start {"iteration":1,"currentLabel":"6 Abr 2026 – 12 Abr 2026"}
+[2026-04-06T14:41:53.075Z] runner:error {"message":"locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('.dhx_cal_prev_button.nav_prev_btn').first()\n    - locator resolved to <div role=\"button\" aria-label=\"Previous\" class=\"dhx_cal_prev_button nav_prev_btn\"> </div>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    10 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n","stack":"locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('.dhx_cal_prev_button.nav_prev_btn').first()\n    - locator resolved to <div role=\"button\" aria-label=\"Previous\" class=\"dhx_cal_prev_button nav_prev_btn\"> </div>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    10 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n\n    at goPreviousWeek (/home/alexander-ortega/.openclaw/workspace/agents/hq/internal/automation/clinicbridge/runner_clinicweb_juan_pablo_12w_history.js:341:67)\n    at async /home/alexander-ortega/.openclaw/workspace/agents/hq/internal/automation/clinicbridge/runner_clinicweb_juan_pablo_12w_history.js:516:9"}
+[2026-04-06T14:46:03.713Z] runner:start {"profileCode":"juan-pablo-medina-clinicweb","weeks":12}
+[2026-04-06T14:46:04.735Z] profile:resolved {"doctorId":2,"accessProfileId":1,"user":"jpmedina@ufm.edu"}
+[2026-04-06T14:46:05.074Z] sync_session:created {"syncSessionId":6}
+[2026-04-06T14:46:05.639Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T14:46:14.386Z] login:navigation_detected {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T14:46:17.422Z] agenda_ready:state {"url":"https://professional.cliniweb.com/agenda","hasScheduler":true,"hasViewSelect":true,"hasDoctorName":true,"loadingVisible":true,"overlayVisible":true}
+[2026-04-06T14:46:19.298Z] ui_cleared:state {"loadingVisible":false,"overlayVisible":true}
+[2026-04-06T14:46:19.299Z] login:done {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T14:46:20.061Z] week_view:ensure:start
+[2026-04-06T14:46:22.671Z] week_view:state_after_method1 {"currentViewValue":"1","activeDay":false,"activeWeek":true,"schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_week","dateLabel":"6 Abr 2026 – 12 Abr 2026","scaleBar":"Lunes 06"}
+[2026-04-06T14:46:22.671Z] week_view:ensure:end {"activeAfter":1}
+[2026-04-06T14:46:24.761Z] iteration:start {"iteration":1}
+[2026-04-06T14:46:24.780Z] iteration:raw {"iteration":1,"dateLabel":"6 Abr 2026 – 12 Abr 2026","headerLabel":"Lunes 06","events":13}
+[2026-04-06T14:46:24.782Z] iteration:metrics {"iteration":1,"snapshotDate":"2026-04-06","availableSlots":18,"bookedSlots":70,"occupancyRate":388.89,"weekStatus":"valid_normal","blocks":13}
+[2026-04-06T14:46:25.961Z] iteration:persisted {"iteration":1,"snapshotDate":"2026-04-06"}
+[2026-04-06T14:46:25.977Z] nav:prev:start {"iteration":1,"currentLabel":"6 Abr 2026 – 12 Abr 2026"}
+[2026-04-06T14:46:27.555Z] nav:prev:end {"iteration":1,"dateLabel":"30 Mar 2026 – 5 Abr 2026","scaleBar":"Lunes 30","activeWeek":true}
+[2026-04-06T14:46:27.556Z] iteration:start {"iteration":2}
+[2026-04-06T14:46:27.573Z] iteration:raw {"iteration":2,"dateLabel":"30 Mar 2026 – 5 Abr 2026","headerLabel":"Lunes 30","events":11}
+[2026-04-06T14:46:27.574Z] iteration:metrics {"iteration":2,"snapshotDate":"2026-03-30","availableSlots":18,"bookedSlots":92,"occupancyRate":511.11,"weekStatus":"valid_normal","blocks":11}
+[2026-04-06T14:46:28.419Z] iteration:persisted {"iteration":2,"snapshotDate":"2026-03-30"}
+[2026-04-06T14:46:28.434Z] nav:prev:start {"iteration":2,"currentLabel":"30 Mar 2026 – 5 Abr 2026"}
+[2026-04-06T14:46:30.018Z] nav:prev:end {"iteration":2,"dateLabel":"23 Mar 2026 – 29 Mar 2026","scaleBar":"Lunes 23","activeWeek":true}
+[2026-04-06T14:46:30.018Z] iteration:start {"iteration":3}
+[2026-04-06T14:46:30.051Z] iteration:raw {"iteration":3,"dateLabel":"23 Mar 2026 – 29 Mar 2026","headerLabel":"Lunes 23","events":24}
+[2026-04-06T14:46:30.054Z] iteration:metrics {"iteration":3,"snapshotDate":"2026-03-23","availableSlots":26,"bookedSlots":111,"occupancyRate":426.92,"weekStatus":"valid_normal","blocks":24}
+[2026-04-06T14:46:30.981Z] iteration:persisted {"iteration":3,"snapshotDate":"2026-03-23"}
+[2026-04-06T14:46:31.003Z] nav:prev:start {"iteration":3,"currentLabel":"23 Mar 2026 – 29 Mar 2026"}
+[2026-04-06T14:46:32.563Z] nav:prev:end {"iteration":3,"dateLabel":"16 Mar 2026 – 22 Mar 2026","scaleBar":"Lunes 16","activeWeek":true}
+[2026-04-06T14:46:32.563Z] iteration:start {"iteration":4}
+[2026-04-06T14:46:32.584Z] iteration:raw {"iteration":4,"dateLabel":"16 Mar 2026 – 22 Mar 2026","headerLabel":"Lunes 16","events":16}
+[2026-04-06T14:46:32.585Z] iteration:metrics {"iteration":4,"snapshotDate":"2026-03-16","availableSlots":18,"bookedSlots":102,"occupancyRate":566.67,"weekStatus":"valid_normal","blocks":16}
+[2026-04-06T14:46:33.389Z] iteration:persisted {"iteration":4,"snapshotDate":"2026-03-16"}
+[2026-04-06T14:46:33.404Z] nav:prev:start {"iteration":4,"currentLabel":"16 Mar 2026 – 22 Mar 2026"}
+[2026-04-06T14:46:34.956Z] nav:prev:end {"iteration":4,"dateLabel":"9 Mar 2026 – 15 Mar 2026","scaleBar":"Lunes 09","activeWeek":true}
+[2026-04-06T14:46:34.957Z] iteration:start {"iteration":5}
+[2026-04-06T14:46:34.988Z] iteration:raw {"iteration":5,"dateLabel":"9 Mar 2026 – 15 Mar 2026","headerLabel":"Lunes 09","events":20}
+[2026-04-06T14:46:34.988Z] iteration:metrics {"iteration":5,"snapshotDate":"2026-03-09","availableSlots":20,"bookedSlots":101,"occupancyRate":505,"weekStatus":"valid_normal","blocks":20}
+[2026-04-06T14:46:35.894Z] iteration:persisted {"iteration":5,"snapshotDate":"2026-03-09"}
+[2026-04-06T14:46:35.913Z] nav:prev:start {"iteration":5,"currentLabel":"9 Mar 2026 – 15 Mar 2026"}
+[2026-04-06T14:46:37.515Z] nav:prev:end {"iteration":5,"dateLabel":"2 Mar 2026 – 8 Mar 2026","scaleBar":"Lunes 02","activeWeek":true}
+[2026-04-06T14:46:37.515Z] iteration:start {"iteration":6}
+[2026-04-06T14:46:37.533Z] iteration:raw {"iteration":6,"dateLabel":"2 Mar 2026 – 8 Mar 2026","headerLabel":"Lunes 02","events":18}
+[2026-04-06T14:46:37.533Z] iteration:metrics {"iteration":6,"snapshotDate":"2026-03-02","availableSlots":22,"bookedSlots":96,"occupancyRate":436.36,"weekStatus":"valid_normal","blocks":18}
+[2026-04-06T14:46:38.351Z] iteration:persisted {"iteration":6,"snapshotDate":"2026-03-02"}
+[2026-04-06T14:46:38.370Z] nav:prev:start {"iteration":6,"currentLabel":"2 Mar 2026 – 8 Mar 2026"}
+[2026-04-06T14:46:39.943Z] nav:prev:end {"iteration":6,"dateLabel":"23 Feb 2026 – 1 Mar 2026","scaleBar":"Lunes 23","activeWeek":true}
+[2026-04-06T14:46:39.943Z] iteration:start {"iteration":7}
+[2026-04-06T14:46:39.971Z] iteration:raw {"iteration":7,"dateLabel":"23 Feb 2026 – 1 Mar 2026","headerLabel":"Lunes 23","events":10}
+[2026-04-06T14:46:39.972Z] iteration:metrics {"iteration":7,"snapshotDate":"2026-02-23","availableSlots":18,"bookedSlots":100,"occupancyRate":555.56,"weekStatus":"valid_normal","blocks":10}
+[2026-04-06T14:46:40.911Z] iteration:persisted {"iteration":7,"snapshotDate":"2026-02-23"}
+[2026-04-06T14:46:40.926Z] nav:prev:start {"iteration":7,"currentLabel":"23 Feb 2026 – 1 Mar 2026"}
+[2026-04-06T14:46:42.482Z] nav:prev:end {"iteration":7,"dateLabel":"16 Feb 2026 – 22 Feb 2026","scaleBar":"Lunes 16","activeWeek":true}
+[2026-04-06T14:46:42.482Z] iteration:start {"iteration":8}
+[2026-04-06T14:46:42.502Z] iteration:raw {"iteration":8,"dateLabel":"16 Feb 2026 – 22 Feb 2026","headerLabel":"Lunes 16","events":16}
+[2026-04-06T14:46:42.502Z] iteration:metrics {"iteration":8,"snapshotDate":"2026-02-16","availableSlots":18,"bookedSlots":100,"occupancyRate":555.56,"weekStatus":"valid_normal","blocks":16}
+[2026-04-06T14:46:43.472Z] iteration:persisted {"iteration":8,"snapshotDate":"2026-02-16"}
+[2026-04-06T14:46:43.505Z] nav:prev:start {"iteration":8,"currentLabel":"16 Feb 2026 – 22 Feb 2026"}
+[2026-04-06T14:46:45.141Z] nav:prev:end {"iteration":8,"dateLabel":"9 Feb 2026 – 15 Feb 2026","scaleBar":"Lunes 09","activeWeek":true}
+[2026-04-06T14:46:45.141Z] iteration:start {"iteration":9}
+[2026-04-06T14:46:45.165Z] iteration:raw {"iteration":9,"dateLabel":"9 Feb 2026 – 15 Feb 2026","headerLabel":"Lunes 09","events":8}
+[2026-04-06T14:46:45.166Z] iteration:metrics {"iteration":9,"snapshotDate":"2026-02-09","availableSlots":18,"bookedSlots":96,"occupancyRate":533.33,"weekStatus":"valid_normal","blocks":8}
+[2026-04-06T14:46:45.946Z] iteration:persisted {"iteration":9,"snapshotDate":"2026-02-09"}
+[2026-04-06T14:46:45.961Z] nav:prev:start {"iteration":9,"currentLabel":"9 Feb 2026 – 15 Feb 2026"}
+[2026-04-06T14:46:47.515Z] nav:prev:end {"iteration":9,"dateLabel":"2 Feb 2026 – 8 Feb 2026","scaleBar":"Lunes 02","activeWeek":true}
+[2026-04-06T14:46:47.515Z] iteration:start {"iteration":10}
+[2026-04-06T14:46:47.533Z] iteration:raw {"iteration":10,"dateLabel":"2 Feb 2026 – 8 Feb 2026","headerLabel":"Lunes 02","events":19}
+[2026-04-06T14:46:47.533Z] iteration:metrics {"iteration":10,"snapshotDate":"2026-02-02","availableSlots":19,"bookedSlots":100,"occupancyRate":526.32,"weekStatus":"valid_normal","blocks":19}
+[2026-04-06T14:46:48.489Z] iteration:persisted {"iteration":10,"snapshotDate":"2026-02-02"}
+[2026-04-06T14:46:48.504Z] nav:prev:start {"iteration":10,"currentLabel":"2 Feb 2026 – 8 Feb 2026"}
+[2026-04-06T14:46:50.057Z] nav:prev:end {"iteration":10,"dateLabel":"26 Ene 2026 – 1 Feb 2026","scaleBar":"Lunes 26","activeWeek":true}
+[2026-04-06T14:46:50.057Z] iteration:start {"iteration":11}
+[2026-04-06T14:46:50.083Z] iteration:raw {"iteration":11,"dateLabel":"26 Ene 2026 – 1 Feb 2026","headerLabel":"Lunes 26","events":20}
+[2026-04-06T14:46:50.084Z] iteration:metrics {"iteration":11,"snapshotDate":"2026-01-26","availableSlots":20,"bookedSlots":105,"occupancyRate":525,"weekStatus":"valid_normal","blocks":20}
+[2026-04-06T14:46:50.912Z] iteration:persisted {"iteration":11,"snapshotDate":"2026-01-26"}
+[2026-04-06T14:46:50.929Z] nav:prev:start {"iteration":11,"currentLabel":"26 Ene 2026 – 1 Feb 2026"}
+[2026-04-06T14:46:52.564Z] nav:prev:end {"iteration":11,"dateLabel":"19 Ene 2026 – 25 Ene 2026","scaleBar":"Lunes 19","activeWeek":true}
+[2026-04-06T14:46:52.564Z] iteration:start {"iteration":12}
+[2026-04-06T14:46:52.586Z] iteration:raw {"iteration":12,"dateLabel":"19 Ene 2026 – 25 Ene 2026","headerLabel":"Lunes 19","events":13}
+[2026-04-06T14:46:52.586Z] iteration:metrics {"iteration":12,"snapshotDate":"2026-01-19","availableSlots":22,"bookedSlots":96,"occupancyRate":436.36,"weekStatus":"valid_normal","blocks":13}
+[2026-04-06T14:46:53.348Z] iteration:persisted {"iteration":12,"snapshotDate":"2026-01-19"}
+[2026-04-06T14:46:53.547Z] sync_session:completed {"syncSessionId":6,"capturedWeeks":12}
+[2026-04-06T14:59:34.668Z] runner:start {"profileCode":"juan-pablo-medina-clinicweb","weeks":12}
+[2026-04-06T14:59:35.234Z] profile:resolved {"doctorId":2,"accessProfileId":1,"user":"jpmedina@ufm.edu"}
+[2026-04-06T14:59:35.430Z] sync_session:created {"syncSessionId":7}
+[2026-04-06T14:59:35.715Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T14:59:45.872Z] login:navigation_detected {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T14:59:48.911Z] agenda_ready:state {"url":"https://professional.cliniweb.com/agenda","hasScheduler":true,"hasViewSelect":true,"hasDoctorName":true,"loadingVisible":true,"overlayVisible":true}
+[2026-04-06T14:59:50.792Z] ui_cleared:state {"loadingVisible":false,"overlayVisible":true}
+[2026-04-06T14:59:50.793Z] login:done {"url":"https://professional.cliniweb.com/agenda"}
+[2026-04-06T14:59:51.553Z] week_view:ensure:start
+[2026-04-06T14:59:54.139Z] week_view:state_after_method1 {"currentViewValue":"1","activeDay":false,"activeWeek":true,"schedulerClass":"dhx_cal_container custom_scheduler dhx_scheduler_week","dateLabel":"6 Abr 2026 – 12 Abr 2026","scaleBar":"Lunes 06"}
+[2026-04-06T14:59:54.139Z] week_view:ensure:end {"activeAfter":1}
+[2026-04-06T14:59:56.304Z] iteration:start {"iteration":1}
+[2026-04-06T14:59:56.331Z] iteration:raw {"iteration":1,"dateLabel":"6 Abr 2026 – 12 Abr 2026","headerLabel":"Lunes 06","events":13}
+[2026-04-06T14:59:56.350Z] iteration:metrics {"iteration":1,"snapshotDate":"2026-04-06","availableSlots":18,"bookedSlots":48,"occupancyRate":266.67,"weekStatus":"valid_normal","blocks":13,"uniqueRangesCount":10}
+[2026-04-06T14:59:57.544Z] iteration:persisted {"iteration":1,"snapshotDate":"2026-04-06"}
+[2026-04-06T14:59:57.564Z] nav:prev:start {"iteration":1,"currentLabel":"6 Abr 2026 – 12 Abr 2026"}
+[2026-04-06T14:59:59.158Z] nav:prev:end {"iteration":1,"dateLabel":"30 Mar 2026 – 5 Abr 2026","scaleBar":"Lunes 30","activeWeek":true}
+[2026-04-06T14:59:59.158Z] iteration:start {"iteration":2}
+[2026-04-06T14:59:59.175Z] iteration:raw {"iteration":2,"dateLabel":"30 Mar 2026 – 5 Abr 2026","headerLabel":"Lunes 30","events":11}
+[2026-04-06T14:59:59.176Z] iteration:metrics {"iteration":2,"snapshotDate":"2026-03-30","availableSlots":18,"bookedSlots":52,"occupancyRate":288.89,"weekStatus":"valid_normal","blocks":11,"uniqueRangesCount":8}
+[2026-04-06T15:00:00.104Z] iteration:persisted {"iteration":2,"snapshotDate":"2026-03-30"}
+[2026-04-06T15:00:00.127Z] nav:prev:start {"iteration":2,"currentLabel":"30 Mar 2026 – 5 Abr 2026"}
+[2026-04-06T15:00:01.707Z] nav:prev:end {"iteration":2,"dateLabel":"23 Mar 2026 – 29 Mar 2026","scaleBar":"Lunes 23","activeWeek":true}
+[2026-04-06T15:00:01.707Z] iteration:start {"iteration":3}
+[2026-04-06T15:00:01.726Z] iteration:raw {"iteration":3,"dateLabel":"23 Mar 2026 – 29 Mar 2026","headerLabel":"Lunes 23","events":24}
+[2026-04-06T15:00:01.727Z] iteration:metrics {"iteration":3,"snapshotDate":"2026-03-23","availableSlots":26,"bookedSlots":63,"occupancyRate":242.31,"weekStatus":"valid_normal","blocks":24,"uniqueRangesCount":16}
+[2026-04-06T15:00:02.664Z] iteration:persisted {"iteration":3,"snapshotDate":"2026-03-23"}
+[2026-04-06T15:00:02.678Z] nav:prev:start {"iteration":3,"currentLabel":"23 Mar 2026 – 29 Mar 2026"}
+[2026-04-06T15:00:04.236Z] nav:prev:end {"iteration":3,"dateLabel":"16 Mar 2026 – 22 Mar 2026","scaleBar":"Lunes 16","activeWeek":true}
+[2026-04-06T15:00:04.237Z] iteration:start {"iteration":4}
+[2026-04-06T15:00:04.254Z] iteration:raw {"iteration":4,"dateLabel":"16 Mar 2026 – 22 Mar 2026","headerLabel":"Lunes 16","events":16}
+[2026-04-06T15:00:04.255Z] iteration:metrics {"iteration":4,"snapshotDate":"2026-03-16","availableSlots":18,"bookedSlots":40,"occupancyRate":222.22,"weekStatus":"valid_normal","blocks":16,"uniqueRangesCount":9}
+[2026-04-06T15:00:05.224Z] iteration:persisted {"iteration":4,"snapshotDate":"2026-03-16"}
+[2026-04-06T15:00:05.243Z] nav:prev:start {"iteration":4,"currentLabel":"16 Mar 2026 – 22 Mar 2026"}
+[2026-04-06T15:00:06.830Z] nav:prev:end {"iteration":4,"dateLabel":"9 Mar 2026 – 15 Mar 2026","scaleBar":"Lunes 09","activeWeek":true}
+[2026-04-06T15:00:06.831Z] iteration:start {"iteration":5}
+[2026-04-06T15:00:06.853Z] iteration:raw {"iteration":5,"dateLabel":"9 Mar 2026 – 15 Mar 2026","headerLabel":"Lunes 09","events":20}
+[2026-04-06T15:00:06.854Z] iteration:metrics {"iteration":5,"snapshotDate":"2026-03-09","availableSlots":20,"bookedSlots":41,"occupancyRate":205,"weekStatus":"valid_normal","blocks":20,"uniqueRangesCount":14}
+[2026-04-06T15:00:07.783Z] iteration:persisted {"iteration":5,"snapshotDate":"2026-03-09"}
+[2026-04-06T15:00:07.799Z] nav:prev:start {"iteration":5,"currentLabel":"9 Mar 2026 – 15 Mar 2026"}
+[2026-04-06T15:00:09.462Z] nav:prev:end {"iteration":5,"dateLabel":"2 Mar 2026 – 8 Mar 2026","scaleBar":"Lunes 02","activeWeek":true}
+[2026-04-06T15:00:09.463Z] iteration:start {"iteration":6}
+[2026-04-06T15:00:09.480Z] iteration:raw {"iteration":6,"dateLabel":"2 Mar 2026 – 8 Mar 2026","headerLabel":"Lunes 02","events":18}
+[2026-04-06T15:00:09.481Z] iteration:metrics {"iteration":6,"snapshotDate":"2026-03-02","availableSlots":22,"bookedSlots":86,"occupancyRate":390.91,"weekStatus":"valid_normal","blocks":18,"uniqueRangesCount":14}
+[2026-04-06T15:00:10.348Z] iteration:persisted {"iteration":6,"snapshotDate":"2026-03-02"}
+[2026-04-06T15:00:10.365Z] nav:prev:start {"iteration":6,"currentLabel":"2 Mar 2026 – 8 Mar 2026"}
+[2026-04-06T15:00:11.944Z] nav:prev:end {"iteration":6,"dateLabel":"23 Feb 2026 – 1 Mar 2026","scaleBar":"Lunes 23","activeWeek":true}
+[2026-04-06T15:00:11.944Z] iteration:start {"iteration":7}
+[2026-04-06T15:00:11.961Z] iteration:raw {"iteration":7,"dateLabel":"23 Feb 2026 – 1 Mar 2026","headerLabel":"Lunes 23","events":10}
+[2026-04-06T15:00:11.962Z] iteration:metrics {"iteration":7,"snapshotDate":"2026-02-23","availableSlots":18,"bookedSlots":46,"occupancyRate":255.56,"weekStatus":"valid_normal","blocks":10,"uniqueRangesCount":7}
+[2026-04-06T15:00:12.766Z] iteration:persisted {"iteration":7,"snapshotDate":"2026-02-23"}
+[2026-04-06T15:00:12.786Z] nav:prev:start {"iteration":7,"currentLabel":"23 Feb 2026 – 1 Mar 2026"}
+[2026-04-06T15:00:14.340Z] nav:prev:end {"iteration":7,"dateLabel":"16 Feb 2026 – 22 Feb 2026","scaleBar":"Lunes 16","activeWeek":true}
+[2026-04-06T15:00:14.340Z] iteration:start {"iteration":8}
+[2026-04-06T15:00:14.363Z] iteration:raw {"iteration":8,"dateLabel":"16 Feb 2026 – 22 Feb 2026","headerLabel":"Lunes 16","events":16}
+[2026-04-06T15:00:14.363Z] iteration:metrics {"iteration":8,"snapshotDate":"2026-02-16","availableSlots":18,"bookedSlots":44,"occupancyRate":244.44,"weekStatus":"valid_normal","blocks":16,"uniqueRangesCount":12}
+[2026-04-06T15:00:15.136Z] iteration:persisted {"iteration":8,"snapshotDate":"2026-02-16"}
+[2026-04-06T15:00:15.154Z] nav:prev:start {"iteration":8,"currentLabel":"16 Feb 2026 – 22 Feb 2026"}
+[2026-04-06T15:00:16.851Z] nav:prev:end {"iteration":8,"dateLabel":"9 Feb 2026 – 15 Feb 2026","scaleBar":"Lunes 09","activeWeek":true}
+[2026-04-06T15:00:16.851Z] iteration:start {"iteration":9}
+[2026-04-06T15:00:16.872Z] iteration:raw {"iteration":9,"dateLabel":"9 Feb 2026 – 15 Feb 2026","headerLabel":"Lunes 09","events":8}
+[2026-04-06T15:00:16.873Z] iteration:metrics {"iteration":9,"snapshotDate":"2026-02-09","availableSlots":18,"bookedSlots":42,"occupancyRate":233.33,"weekStatus":"valid_normal","blocks":8,"uniqueRangesCount":5}
+[2026-04-06T15:00:17.639Z] iteration:persisted {"iteration":9,"snapshotDate":"2026-02-09"}
+[2026-04-06T15:00:17.654Z] nav:prev:start {"iteration":9,"currentLabel":"9 Feb 2026 – 15 Feb 2026"}
+[2026-04-06T15:00:19.214Z] nav:prev:end {"iteration":9,"dateLabel":"2 Feb 2026 – 8 Feb 2026","scaleBar":"Lunes 02","activeWeek":true}
+[2026-04-06T15:00:19.214Z] iteration:start {"iteration":10}
+[2026-04-06T15:00:19.233Z] iteration:raw {"iteration":10,"dateLabel":"2 Feb 2026 – 8 Feb 2026","headerLabel":"Lunes 02","events":19}
+[2026-04-06T15:00:19.233Z] iteration:metrics {"iteration":10,"snapshotDate":"2026-02-02","availableSlots":19,"bookedSlots":38,"occupancyRate":200,"weekStatus":"valid_normal","blocks":19,"uniqueRangesCount":12}
+[2026-04-06T15:00:20.324Z] iteration:persisted {"iteration":10,"snapshotDate":"2026-02-02"}
+[2026-04-06T15:00:20.339Z] nav:prev:start {"iteration":10,"currentLabel":"2 Feb 2026 – 8 Feb 2026"}
+[2026-04-06T15:00:21.898Z] nav:prev:end {"iteration":10,"dateLabel":"26 Ene 2026 – 1 Feb 2026","scaleBar":"Lunes 26","activeWeek":true}
+[2026-04-06T15:00:21.898Z] iteration:start {"iteration":11}
+[2026-04-06T15:00:21.914Z] iteration:raw {"iteration":11,"dateLabel":"26 Ene 2026 – 1 Feb 2026","headerLabel":"Lunes 26","events":20}
+[2026-04-06T15:00:21.915Z] iteration:metrics {"iteration":11,"snapshotDate":"2026-01-26","availableSlots":20,"bookedSlots":51,"occupancyRate":255,"weekStatus":"valid_normal","blocks":20,"uniqueRangesCount":13}
+[2026-04-06T15:00:22.773Z] iteration:persisted {"iteration":11,"snapshotDate":"2026-01-26"}
+[2026-04-06T15:00:22.777Z] nav:prev:start {"iteration":11,"currentLabel":null}

@@ -1,0 +1,21 @@
+{
+  "user": {
+    "name": "txt_usuario",
+    "type": "text",
+    "id": "txt_usuario"
+  },
+  "pass": {
+    "name": "txt_password",
+    "type": "password",
+    "id": "txt_password",
+    "tabindex": "2"
+  },
+  "button": {
+    "name": "btn_iniciar",
+    "type": "button",
+    "id": "btn_iniciar",
+    "value": "Ingresar",
+    "class": "btn btn-login orange",
+    "disabled": "disabled"
+  }
+}

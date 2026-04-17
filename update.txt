@@ -1,0 +1,1 @@
+Forzando un nuevo cambio en el archivo para activar el flujo de comparación.

@@ -1,0 +1,2 @@
+[2026-04-06T13:35:57.248Z] login:start {"loginUrl":"https://professional.cliniweb.com/inicio_sesion.aspx?ReturnUrl=%2f","user":"jpmedina@ufm.edu"}
+[2026-04-06T13:36:05.336Z] login:done {"url":"https://professional.cliniweb.com/agenda"}
