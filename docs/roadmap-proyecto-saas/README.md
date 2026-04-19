@@ -8,6 +8,12 @@ Centralizar en GitHub la documentación viva del proyecto sin mezclarla con secr
 ## Estructura
 - `contexto-general.md`: contexto ejecutivo y criterios base del proyecto
 - `github-secrets-inventory.md`: inventario de secrets y valores documentables
+- `nexplay-ai-agent-whatsapp-contexto.md`: contexto funcional/técnico del módulo AI Agent
+- `nexplay-ai-agent-whatsapp-despliegue-piloto.md`: checklist de deploy y piloto
+- `nexplay-ai-agent-openclaw-operativo.md`: flujo operativo concreto para OpenClaw
+- `nexplay-ai-agent-prompt-base.md`: prompt base recomendado del agente
+- `nexplay-ai-agent-primeras-pruebas-http.md`: pruebas HTTP iniciales para validar la integración
+- `nexplay-ai-agent-piloto-play-n-trade.md`: configuración sugerida del tenant piloto inicial
 - `prompts/`: banco de prompts y entradas futuras
 
 ## Regla de trabajo
