@@ -16,6 +16,7 @@ Aquí se consolidan los prompts grandes del proyecto dentro del Roadmap de Proye
 - `05-nexplay-reportes-kpis-multitenant.md` incorporado
 - `06-nexplay-pricing-dinamico-y-cortesias.md` incorporado
 - `07-nexplay-ai-agent-whatsapp.md` incorporado
+- `08-nexplay-memberships-y-beneficios.md` incorporado
 
 ## Regla para siguientes prompts
 Todo prompt nuevo que compartas se agrega aquí mismo y se referencia desde este índice.

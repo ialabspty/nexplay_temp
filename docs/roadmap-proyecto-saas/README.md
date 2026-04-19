@@ -14,6 +14,7 @@ Centralizar en GitHub la documentación viva del proyecto sin mezclarla con secr
 - `nexplay-ai-agent-prompt-base.md`: prompt base recomendado del agente
 - `nexplay-ai-agent-primeras-pruebas-http.md`: pruebas HTTP iniciales para validar la integración
 - `nexplay-ai-agent-piloto-play-n-trade.md`: configuración sugerida del tenant piloto inicial
+- `nexplay-memberships-y-beneficios-contexto.md`: base funcional/técnica del módulo de memberships
 - `prompts/`: banco de prompts y entradas futuras
 
 ## Regla de trabajo
