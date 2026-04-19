@@ -85,3 +85,5 @@ jobs:
         FTP_PASV: true
 
 # Comentario para forzar la activación del workflow.
+
+# trigger controlled deploy 2026-04-19T09:49:30Z
